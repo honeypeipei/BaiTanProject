@@ -13,8 +13,8 @@ import os.path
 import yaml
 
 
-def parse():
-    path_ya = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))) + '/Params/Param'
+def parse(dir):
+    path_ya = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))) + dir
     pages = {}
     for root, dirs, files in os.walk(path_ya):
         for name in files:
@@ -27,9 +27,9 @@ def parse():
 
 class GetPages:
     @staticmethod
-    def get_page_list():
+    def get_page_list(dir):
         _page_list = {}
-        pages = parse()
+        pages = parse(dir)
         for page, value in pages.items():
             parameters = value['parameters']
             data_list = []

@@ -1,0 +1,19 @@
+---
+EnableHierarchy:
+  dec: 停用组织结构
+  parameters:
+    -
+      casedec: "正常停用一个组织"
+      url: /hierarchy/enable
+      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      data:
+        - id:
+            - 2
+            - 3
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';

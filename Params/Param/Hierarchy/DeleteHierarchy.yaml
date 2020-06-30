@@ -1,0 +1,75 @@
+---
+DeleteHierarchy:
+  dec: 删除层级
+  parameters:
+    -
+      casedec: "正常删除一个层级"
+      url: /hierarchy/delete
+      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      data:
+        - id:
+            - 2
+            - 3
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+
+    - casedec: "正常同时删除多个层级"
+      url: /hierarchy/delete
+      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      data:
+        - id: []
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+
+    - casedec: "正常同时删除多个层级，级别不一致"
+      url: /hierarchy/delete
+      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      data:
+        - id: []
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+
+    - casedec: "正常同时删除一个层级，该层级下还有层级"
+      url: /hierarchy/delete
+      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      data:
+        - id: []
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+
+    - casedec: "正常同时删除一个层级，下有用户"
+      url: /hierarchy/delete
+      selectsql:  UPDATE tb_user
+                  set hierarchy_id='@sqlresult'
+                  where register_name<>'admin'
+                  LIMIT 1;
+
+      data:
+        - id: []
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 400
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';

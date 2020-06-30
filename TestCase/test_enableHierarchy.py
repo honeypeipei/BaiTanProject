@@ -1,4 +1,4 @@
-# @File  : test_addHierarchy.py
+# @File  : test_deleteHierarchy.py
 # @Author: leipei
 # @Date  :  2020/06/30
 
@@ -11,7 +11,7 @@ from Common import Consts
 from Common import Request
 from Common.Session import Session
 from Conf.Config import Config
-from Params.ParamsHierarchy.paramsHierarchy import  AddHierarchy
+from Params.ParamsHierarchy.paramsHierarchy import  EnableHierarchy
 from Common import Log
 import allure
 import json
@@ -19,14 +19,14 @@ from Common.Assert import Assertions
 import time
 
 
-@allure.feature('GetHierarchy')
-class TestAddhierarchy:
+@allure.feature('EnableHierarchy')
+class TestEnablehierarchy:
 
     @allure.severity('blocker')
-    @allure.story("新增组织机构")
+    @allure.story("停用禁用组织")
     def test_hierarchy_01(self):
         """
-            用例描述：新增组织机构
+            用例描述：停用禁用组织机构
         """
 
         #写log
@@ -34,7 +34,7 @@ class TestAddhierarchy:
             log = Log.MyLog()
             log.info('文件已开始执行')
             conf = Config()
-            data = AddHierarchy()
+            data = EnableHierarchy()
 
         #获取请求域名
         host = conf.host_debug
@@ -44,7 +44,11 @@ class TestAddhierarchy:
         urls = data.url[0]
         header = data.header[0]
         param = data.data[0]
-        print(param[0])
+        my_param = param[0]['id']
+        print(my_param)
+        # my_param = list(param[0].values())
+        # print(json.dumps(my_param))
+        # print(my_param[0])
 
         #请求接口
         api_url = req_url + urls
@@ -53,5 +57,5 @@ class TestAddhierarchy:
         #post请求
         request = Request.Request()
         with allure.step("开始请求接口,RUL: {0},header:{1},request:{2}".format(api_url, header, param[0])):
-            response = request.post_request(api_url, json.dumps(param[0]), header)
+            response = request.post_request(api_url, json.dumps(my_param), header)
             print(response)

@@ -1,0 +1,13 @@
+---
+GetHierarchy:
+  dec: 获取所有组织架构
+  parameters:
+    -
+      casedec: "获取所有组织架构"
+      url: /hierarchy/all
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsesql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
