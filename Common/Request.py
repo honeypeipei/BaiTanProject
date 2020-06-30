@@ -21,7 +21,7 @@ import allure
 
 class Request:
 
-    def __init__(self, env):
+    def __init__(self):
         """
         :param env:
         """

@@ -20,7 +20,7 @@ class Config:
     VALUE_ENVIRONMENT = "environment"
     VALUE_VERSION_CODE = "versionCode"
     VALUE_HOST = "host"
-    VALUE_LOGIN_HOST = "loginHost"
+    # VALUE_LOGIN_HOST = "loginHost"
 
     # VALUE_PORT_COMMON_SERVICE= "portCommonService"
     # VALUE_PORT_CONFIG_SERVICE = "portConfigService"
@@ -30,8 +30,8 @@ class Config:
     # VALUE_PORT_SALE_SERVICE = "portSaleService"
     # VALUE_PORT_USER_SERVICE ="portUserService"
 
-    VALUE_LOGIN_INFO = "loginInfo"
-    VALUE_LOGIN_HEADER="loginheaders"
+    # VALUE_LOGIN_INFO = "loginInfo"
+    # VALUE_LOGIN_HEADER="loginheaders"
     VALUE_SQLHOST = "sqlhost"
     VALUE_SQLUSER ="sqluser"
     VALUE_SQLPASSWORD ="sqlpassword"
@@ -67,9 +67,9 @@ class Config:
         self.environment = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_ENVIRONMENT)
         self.versionCode_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_VERSION_CODE)
         self.host_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_HOST)
-        self.loginHost_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_LOGIN_HOST)
-        self.loginInfo_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_LOGIN_INFO)
-        self.loginheader_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_LOGIN_HEADER)
+        # self.loginHost_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_LOGIN_HOST)
+        # self.loginInfo_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_LOGIN_INFO)
+        # self.loginheader_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_LOGIN_HEADER)
 
         self.sql_host_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_SQLHOST)
         self.sql_user_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_SQLUSER)
@@ -77,42 +77,7 @@ class Config:
         self.sql_database_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_DATABASE)
         self.sql_sqlport_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_SQLPORT)
 
-        # self.portCommonService_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_PORT_COMMON_SERVICE)
-        # self.portConfigService_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_PORT_CONFIG_SERVICE)
-        # self.portMallService_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_PORT_MALL_SERVICE)
-        # self.portShopService_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_PORT_SHOP_SERVICE)
-        # self.portMallStandardService_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_PORT_MALL_STANDARD_SERVICE)
-        # self.portSaleService_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_PORT_SALE_SERVICE)
-        # self.portUserService_debug = self.get_conf(Config.TITLE_DEBUG, Config.VALUE_PORT_USER_SERVICE)
 
-
-        # self.tester_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_TESTER)
-        # self.environment_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_ENVIRONMENT)
-        # self.versionCode_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_VERSION_CODE)
-        # self.host_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_PORT_SHOP_SERVICE)
-        # self.loginHost_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_PORT_MALL_STANDARD_SERVICE)
-        # self.loginInfo_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_LOGIN_INFO)
-        #
-        # self.sql_host_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_SQLHOST)
-        # self.sql_user_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_SQLUSER)
-        # self.sql_password_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_SQLPASSWORD)
-        # self.sql_database_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_DATABASE)
-        # self.sql_sqlport_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_SQLPORT)
-        #
-        # self.portCommonService_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_PORT_COMMON_SERVICE)
-        # self.portConfigService_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_PORT_CONFIG_SERVICE)
-        # self.portMallService_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_PORT_MALL_SERVICE)
-        # self.portShopService_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_PORT_SHOP_SERVICE)
-        # self.portMallStandardService_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_PORT_MALL_STANDARD_SERVICE)
-        # self.portSaleService_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_PORT_SALE_SERVICE)
-        # self.portUserService_release = self.get_conf(Config.TITLE_RELEASE, Config.VALUE_PORT_USER_SERVICE)
-
-
-        # self.smtpserver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SMTP_SERVER)
-        # self.sender = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_SENDER)
-        # self.receiver = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_RECEIVER)
-        # self.username = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_USERNAME)
-        # self.password = self.get_conf(Config.TITLE_EMAIL, Config.VALUE_PASSWORD)
 
     def get_conf(self, title, value):
         """
