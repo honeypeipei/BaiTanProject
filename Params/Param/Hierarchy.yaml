@@ -12,3 +12,19 @@ GetHierarchy:
       responsecode: 200
       responsesql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
 
+AddHierarchy:
+  dec: 创建层级
+  parameters:
+    - casedec: "创建一级层级"
+      url: /hierarchy/add
+      selectsql:
+
+      data:
+        -
+          name: "国联信息-test"
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+

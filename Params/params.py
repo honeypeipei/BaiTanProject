@@ -33,6 +33,25 @@ class GetHierarchy:
     responsecode = params[0]['responsecode']
     responsesql = params[0]['responsesql']
 
+class AddHierarchy:
+    log.info('解析yaml, Path:' + path_dir + '/Params/Yaml/Hierarchy.yaml')
+    params = get_parameter('AddHierarchy')
+    url = []
+    data = []
+    header = []
+    # selectsql = []
+    # responsesql = []
+    # responsecode = []
+    casedec = []
+    for i in range(0, len(params)):
+        url.append(params[i]['url'])
+        data.append(params[i]['data'])
+        header.append(params[i]['header'])
+        # selectsql.append(params[i]['selectsql'])
+        # responsesql.append(params[i]['responsesql'])
+        # responsecode.append(params[i]['responsecode'])
+        casedec.append(params[i]['casedec'])
+
 
 
 
