@@ -1,6 +1,6 @@
-# @File  : test_deleteHierarchy.py
+# @File  : test_updateHierarchy.py
 # @Author: leipei
-# @Date  :  2020/06/30
+# @Date  :  2020/07/01
 
 import allure
 import pytest
@@ -11,7 +11,7 @@ from Common import Consts
 from Common import Request
 from Common.Session import Session
 from Conf.Config import Config
-from Params.ParamsHierarchy.paramsHierarchy import  EnableHierarchy
+from Params.ParamsHierarchy.paramsHierarchy import  UpdateHierarchy
 from Common import Log
 import allure
 import json
@@ -19,14 +19,14 @@ from Common.Assert import Assertions
 import time
 
 
-@allure.feature('EnableHierarchy')
-class TestEnablehierarchy:
+@allure.feature('UpdateHierarchy')
+class TestUpdatehierarchy:
 
     @allure.severity('blocker')
-    @allure.story("停用禁用组织")
+    @allure.story("更新组织")
     def test_hierarchy_01(self):
         """
-            用例描述：停用禁用组织机构
+            用例描述：更新组织机构
         """
 
         #写log
@@ -34,7 +34,7 @@ class TestEnablehierarchy:
             log = Log.MyLog()
             log.info('文件已开始执行')
             conf = Config()
-            data = EnableHierarchy()
+            data = UpdateHierarchy()
 
         #获取请求域名
         host = conf.host_debug

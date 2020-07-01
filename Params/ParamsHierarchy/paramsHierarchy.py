@@ -87,3 +87,32 @@ class EnableHierarchy:
         responsecode.append(params[i]['responsecode'])
         responsemessage.append(params[i]['responsemessage'])
         casedec.append(params[i]['casedec'])
+
+class UpdateHierarchy:
+    log.info('解析yaml, Path:' + path_dir + '/Param/Hierarchy/Yaml/UpdateHierarchy.yaml')
+    params = get_parameter('UpdateHierarchy','/Params/Param/Hierarchy')
+    url = []
+    data = []
+    header = []
+    selectsql = []
+    responsesql = []
+    responsecode = []
+    casedec = []
+    responsemessage = []
+    for i in range(0, len(params)):
+        url.append(params[i]['url'])
+        data.append(params[i]['data'])
+        header.append(params[i]['header'])
+        selectsql.append(params[i]['selectsql'])
+        responsesql.append(params[i]['responsesql'])
+        responsecode.append(params[i]['responsecode'])
+        responsemessage.append(params[i]['responsemessage'])
+        casedec.append(params[i]['casedec'])
+
+class SecondHierarchy:
+    log.info('解析yaml, Path:' + path_dir + '/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml')
+    params = get_parameter('SecondHierarchy','/Params/Param/Hierarchy')
+    url = params[0]['url']
+    header = params[0]['header']
+    # responsecode = params[0]['responsecode']
+    responsesql = params[0]['responsesql']
