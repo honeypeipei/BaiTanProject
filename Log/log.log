@@ -230,3 +230,147 @@
 [INFO 2020-07-01 10:33:12]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
 [INFO 2020-07-01 10:33:12]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
 [INFO 2020-07-01 10:33:12]文件已开始执行
+[INFO 2020-07-01 11:00:27]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:00:27]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:00:27]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:00:27]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:00:27]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:00:27]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:00:27]文件已开始执行
+[INFO 2020-07-01 11:04:13]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:04:13]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:04:13]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:04:13]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:04:13]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:04:13]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:04:13]文件已开始执行
+[INFO 2020-07-01 11:04:14]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+[INFO 2020-07-01 11:08:47]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:08:47]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:08:47]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:08:47]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:08:47]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:08:47]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:08:47]文件已开始执行
+[INFO 2020-07-01 11:08:47]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+[ERROR 2020-07-01 11:08:47]Response body msg != expected_msg, expected_msg is 1, body_msg is id
+[INFO 2020-07-01 11:18:38]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:18:38]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:18:38]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:18:38]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:18:38]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:18:38]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:18:38]文件已开始执行
+[INFO 2020-07-01 11:28:57]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:28:58]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:28:58]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:28:58]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:28:58]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:28:58]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:28:58]文件已开始执行
+[INFO 2020-07-01 11:29:29]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+[ERROR 2020-07-01 11:29:30]Response body msg != expected_msg, expected_msg is 1, body_msg is id
+[INFO 2020-07-01 11:30:19]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:30:19]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:30:19]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:30:19]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:30:19]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:30:19]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:30:19]文件已开始执行
+[INFO 2020-07-01 11:30:19]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+[ERROR 2020-07-01 11:30:19]Response body msg != expected_msg, expected_msg is 1, body_msg is id
+[INFO 2020-07-01 11:32:25]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:32:25]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:32:25]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:32:25]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:32:25]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:32:25]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:32:25]文件已开始执行
+[INFO 2020-07-01 11:32:25]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+[ERROR 2020-07-01 11:32:25]Response body msg != expected_msg, expected_msg is 1, body_msg is id
+[INFO 2020-07-01 11:32:56]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:32:56]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:32:56]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:32:56]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:32:56]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:32:56]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:32:56]文件已开始执行
+[INFO 2020-07-01 11:32:57]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+[INFO 2020-07-01 11:34:08]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:34:08]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:34:08]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:34:08]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:34:08]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:34:08]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:34:08]文件已开始执行
+[INFO 2020-07-01 11:34:08]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+[INFO 2020-07-01 11:34:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:34:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:34:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:34:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:34:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:34:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:34:22]文件已开始执行
+[INFO 2020-07-01 11:34:22]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+[INFO 2020-07-01 11:36:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:36:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:36:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:36:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:36:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:36:22]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:36:22]文件已开始执行
+[INFO 2020-07-01 11:36:22]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+[INFO 2020-07-01 11:41:24]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:41:25]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:41:25]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:41:25]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:41:25]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:41:25]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:41:25]文件已开始执行
+[INFO 2020-07-01 11:41:46]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+[INFO 2020-07-01 11:43:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:43:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:43:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:43:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:43:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:43:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:43:46]文件已开始执行
+[INFO 2020-07-01 11:43:47]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+[INFO 2020-07-01 11:53:14]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:53:14]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:53:14]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:53:14]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:53:14]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:53:15]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:53:15]文件已开始执行
+[INFO 2020-07-01 11:53:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 11:53:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 11:53:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 11:53:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 11:53:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 11:53:46]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 11:53:46]文件已开始执行
+[INFO 2020-07-01 11:53:46]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id DESC;
+[INFO 2020-07-01 14:01:42]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 14:01:43]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 14:01:43]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 14:01:43]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 14:01:43]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 14:01:43]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 14:01:43]文件已开始执行
+[INFO 2020-07-01 14:01:43]查询结果数据库成功：SELECT id,name,parent_id from sys_hierarchy  ORDER BY id DESC;
+[INFO 2020-07-01 14:02:10]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 14:02:10]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 14:02:10]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 14:02:10]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 14:02:10]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 14:02:10]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 14:02:10]文件已开始执行
+[INFO 2020-07-01 14:03:16]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/GetHierarchy.yaml
+[INFO 2020-07-01 14:03:16]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/AddHierarchy.yaml
+[INFO 2020-07-01 14:03:16]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/DeleteHierarchy.yaml
+[INFO 2020-07-01 14:03:16]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/EnableHierarchy.yaml
+[INFO 2020-07-01 14:03:16]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/UpdateHierarchy.yaml
+[INFO 2020-07-01 14:03:16]解析yaml, Path:E:\python_project\InformationJava\Params/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml
+[INFO 2020-07-01 14:03:17]文件已开始执行
+[INFO 2020-07-01 14:03:17]查询结果数据库成功：SELECT id,name from sys_hierarchy where parent_id = 1  ORDER BY id;

@@ -10,4 +10,4 @@ SecondHierarchy:
         "X-Api-Version": "1.X"
       }
       responsecode: 200
-      responsesql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY id;
+      responsesql: SELECT id,name from sys_hierarchy where parent_id = 1  ORDER BY id;

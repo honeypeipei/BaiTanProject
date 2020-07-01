@@ -40,6 +40,9 @@ class Testgethierarchy:
         #获取请求域名
         host = conf.host_debug
         req_url = 'http://' + host
+        env = conf.environment
+        responsesql = data.responsesql
+        responsecode = data.responsecode
 
         # 获取请求参数
         urls = data.url
@@ -47,8 +50,28 @@ class Testgethierarchy:
 
         #请求接口
         api_url = req_url + urls
-        print(api_url)
-
         request = Request.Request()
-        response = request.get_request(api_url, None, header)
-        print(response)
+        with allure.step("开始请求接口,RUL: {0},header:{1}".format(api_url, header)):
+            response = request.get_request(api_url, None, header)
+            print(response['body'])
+
+        # 数据库查询结果
+        try:
+            # print(responsesql)
+            responsesqlresult = SqlResult(responsesql, env).get_sqlresult_list()
+            print(responsesqlresult)
+            with allure.step("获取预期结果值成功"):
+                log.info('查询结果数据库成功：' + responsesql)
+        except:
+            log.info('查询结果数据库失败：' + responsesql)
+
+        print(responsecode)
+
+        # 增加断言
+        assertbody = Assertions()
+        with allure.step("增加断言，接口返回结果：{0}".format(response)):
+            assertbody.assert_text(str(response['code']), str(responsecode))
+            if response['code'] == responsecode:
+                for i in range(len(responsesqlresult)):
+                    for k, v in responsesqlresult[i].items():
+                        assertbody.assert_body(response['body'][i], k, responsesqlresult[i][k])

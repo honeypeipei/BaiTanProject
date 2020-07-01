@@ -114,5 +114,5 @@ class SecondHierarchy:
     params = get_parameter('SecondHierarchy','/Params/Param/Hierarchy')
     url = params[0]['url']
     header = params[0]['header']
-    # responsecode = params[0]['responsecode']
+    responsecode = params[0]['responsecode']
     responsesql = params[0]['responsesql']
