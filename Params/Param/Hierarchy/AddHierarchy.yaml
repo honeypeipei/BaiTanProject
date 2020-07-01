@@ -3,33 +3,35 @@
 AddHierarchy:
   dec: 创建层级
   parameters:
-    - casedec: "创建一级层级"
+    - casedec: "创建二级层级"
       url: /hierarchy/add
       selectsql:
 
       data:
         -
-          name: "国联信息-test"
+          name: ""
+          parent_id: 1
+          description: "这是二级组织描述"
       header: {
         "Content-Type": "application/json;charset=utf-8",
         "X-Api-Version": "1.X"
       }
       responsecode: 200
-      responsesql: select id,name,parent_id from sys_hierarchy where id = '@sqlresult'
+      responsesql: select name from sys_hierarchy where parent_id = 1
 
-    - casedec: "创建二级层级"
+    - casedec: "创建三级层级"
       url: /hierarchy/add
-      selectsql: SELECT id from sys_hierarchy where parent_id IS NULL ORDER BY RAND() LIMIT 1
+      selectsql: SELECT id from sys_hierarchy where parent_id = 1 ORDER BY RAND() LIMIT 1
       data:
-        - name: "技术研发部"
-          parent_id: 5
-          description: ""
+        - name: ""
+          parent_id:
+          description: "这是三级组织描述"
       header: {
         "Content-Type": "application/json;charset=utf-8",
         "X-Api-Version": "1.X"
       }
       responsecode: 200
-      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+      responsesql: SELECT name from sys_hierarchy where parent_id ='@sqlresult';
 
     - casedec: "名称超长"
       url: /hierarchy/add
