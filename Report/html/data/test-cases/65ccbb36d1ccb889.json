@@ -1,0 +1,158 @@
+{
+  "uid" : "65ccbb36d1ccb889",
+  "name" : "test_addhierarchy_02",
+  "fullName" : "TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_02",
+  "historyId" : "48e1a1e127870b7615eef6eab3cf7a5a",
+  "time" : {
+    "start" : 1593678550347,
+    "stop" : 1593678550939,
+    "duration" : 592
+  },
+  "description" : "\n            用例描述：创建三级组织\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：创建三级组织\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：创建三级组织\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "写入Log",
+      "time" : {
+        "start" : 1593678550347,
+        "stop" : 1593678550347,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "获取输入参数值",
+      "time" : {
+        "start" : 1593678550505,
+        "stop" : 1593678550505,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "开始请求接口,RUL: http://10.2.2.61:8093/hierarchy/add,header:{'Content-Type': 'application/json;charset=utf-8', 'X-Api-Version': '1.X'},request:{'name': '国联信息1593678550', 'parent_id': 15, 'description': '这是三级组织描述'}",
+      "time" : {
+        "start" : 1593678550505,
+        "stop" : 1593678550810,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "获取预期结果值成功，查询Sql：SELECT name from sys_hierarchy where parent_id ='15';,查询结果：[{'name': '国联信息1593678550'}]",
+      "time" : {
+        "start" : 1593678550938,
+        "stop" : 1593678550938,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "接口返回结果：{'code': 200, 'body': True, 'text': 'true', 'time_consuming': 303.788, 'time_total': 0.303788, 'header': {'Content-Type': 'application/json', 'Content-Length': '4', 'Date': 'Thu, 02 Jul 2020 08:29:12 GMT'}}",
+      "time" : {
+        "start" : 1593678550938,
+        "stop" : 1593678550938,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "d94799a13cf3d532",
+      "name" : "log",
+      "source" : "d94799a13cf3d532.txt",
+      "type" : "text/plain",
+      "size" : 421
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "创建三级组织"
+  }, {
+    "name" : "feature",
+    "value" : "GetHierarchy"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_addHierarchy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddhierarchy"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DN3J7GJ"
+  }, {
+    "name" : "thread",
+    "value" : "14080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_addHierarchy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65ccbb36d1ccb889.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,113 @@
+{
+  "uid" : "653ddc19db0e7258",
+  "name" : "test_hierarchy_01",
+  "fullName" : "TestCase.test_enableHierarchy.TestEnablehierarchy#test_hierarchy_01",
+  "historyId" : "64d23ae834e308ac7bcc0bde268430b4",
+  "time" : {
+    "start" : 1593678552864,
+    "stop" : 1593678553112,
+    "duration" : 248
+  },
+  "description" : "\n            用例描述：停用禁用组织机构\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：停用禁用组织机构\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：停用禁用组织机构\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "写入Log",
+      "time" : {
+        "start" : 1593678552864,
+        "stop" : 1593678552865,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "开始请求接口,RUL: http://10.2.2.61:8093/hierarchy/enable,header:{'Content-Type': 'application/json;charset=utf-8', 'X-Api-Version': '1.X'},request:{'ids': [2, 3], 'enable_flag': 0}",
+      "time" : {
+        "start" : 1593678552865,
+        "stop" : 1593678553112,
+        "duration" : 247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "982bdbe7989b8758",
+      "name" : "log",
+      "source" : "982bdbe7989b8758.txt",
+      "type" : "text/plain",
+      "size" : 290
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "EnableHierarchy"
+  }, {
+    "name" : "story",
+    "value" : "停用禁用组织"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_enableHierarchy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEnablehierarchy"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DN3J7GJ"
+  }, {
+    "name" : "thread",
+    "value" : "14080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_enableHierarchy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "653ddc19db0e7258.json",
+  "parameterValues" : [ ]
+}

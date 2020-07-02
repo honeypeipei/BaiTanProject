@@ -1,0 +1,138 @@
+{
+  "uid" : "c78f4d27a8cfda12",
+  "name" : "test_addhierarchy_07",
+  "fullName" : "TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_07",
+  "historyId" : "194c36b8f354e0a1cf615f8f4efd6756",
+  "time" : {
+    "start" : 1593678550969,
+    "stop" : 1593678550980,
+    "duration" : 11
+  },
+  "description" : "\n            用例描述：name字段传空\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：name字段传空\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <TestCase.test_addHierarchy.TestAddhierarchy object at 0x0422B0B0>\n\n    @allure.severity('normal')\n    @allure.story('name传空格')\n    def test_addhierarchy_07(self):\n        \"\"\"\n            用例描述：name字段传空\n        \"\"\"\n        # 写log\n        with allure.step(\"写入Log\"):\n            log = Log.MyLog()\n            log.info('文件已经开始执行')\n            conf = Config()\n            data = AddHierarchy()\n    \n        # 获取请求域名\n        host = conf.host_debug\n        req_url = 'http://' + host\n    \n        # 获取请求参数\n        urls = data.url[4]\n        header = data.header[4]\n        param = data.data[4]\n        env = conf.environment\n        responsecode = data.responsecode[4]\n        responsesql = data.responsesql[4]\n        selectsql = data.selectsql[4]\n        errorcode = data.errorcode[4]\n        print(param[0])\n    \n        # 请求接口\n        api_url = req_url + urls\n        print(api_url)\n    \n        # post请求\n        request = Request.Request()\n        with allure.step(\"开始请求接口,RUL: {0},header:{1},request:{2}\".format(api_url, header, param[0])):\n            response = request.post_request(api_url, json.dumps(param[0]), header)\n            print(response)\n    \n        # 增加断言\n        with allure.step(\"接口返回结果：{0}\".format(response)):\n            if response['code'] == responsecode:\n                assert response['body']\n                assertbody = Assertions()\n>               assertbody.assert_text(response['header']['X-Api-Error-Code'], errorcode)\n\nTestCase\\test_addHierarchy.py:399: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x042209B0>\nbody = 'REQUEST_PARAM_INVALID', expected_msg = None\n\n    def assert_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否等于预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n>           assert body == expected_msg\nE           AssertionError\n\nCommon\\Assert.py:83: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：name字段传空\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <TestCase.test_addHierarchy.TestAddhierarchy object at 0x0422B0B0>\n\n    @allure.severity('normal')\n    @allure.story('name传空格')\n    def test_addhierarchy_07(self):\n        \"\"\"\n            用例描述：name字段传空\n        \"\"\"\n        # 写log\n        with allure.step(\"写入Log\"):\n            log = Log.MyLog()\n            log.info('文件已经开始执行')\n            conf = Config()\n            data = AddHierarchy()\n    \n        # 获取请求域名\n        host = conf.host_debug\n        req_url = 'http://' + host\n    \n        # 获取请求参数\n        urls = data.url[4]\n        header = data.header[4]\n        param = data.data[4]\n        env = conf.environment\n        responsecode = data.responsecode[4]\n        responsesql = data.responsesql[4]\n        selectsql = data.selectsql[4]\n        errorcode = data.errorcode[4]\n        print(param[0])\n    \n        # 请求接口\n        api_url = req_url + urls\n        print(api_url)\n    \n        # post请求\n        request = Request.Request()\n        with allure.step(\"开始请求接口,RUL: {0},header:{1},request:{2}\".format(api_url, header, param[0])):\n            response = request.post_request(api_url, json.dumps(param[0]), header)\n            print(response)\n    \n        # 增加断言\n        with allure.step(\"接口返回结果：{0}\".format(response)):\n            if response['code'] == responsecode:\n                assert response['body']\n                assertbody = Assertions()\n>               assertbody.assert_text(response['header']['X-Api-Error-Code'], errorcode)\n\nTestCase\\test_addHierarchy.py:399: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x042209B0>\nbody = 'REQUEST_PARAM_INVALID', expected_msg = None\n\n    def assert_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否等于预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n>           assert body == expected_msg\nE           AssertionError\n\nCommon\\Assert.py:83: AssertionError",
+    "steps" : [ {
+      "name" : "写入Log",
+      "time" : {
+        "start" : 1593678550969,
+        "stop" : 1593678550969,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "开始请求接口,RUL: http://10.2.2.61:8093/hierarchy/add,header:{'Content-Type': 'application/json;charset=utf-8', 'X-Api-Version': '1.X'},request:{'name': ' '}",
+      "time" : {
+        "start" : 1593678550970,
+        "stop" : 1593678550979,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "接口返回结果：{'code': 200, 'body': '[名称不能为空]', 'text': '\"[名称不能为空]\"', 'time_consuming': 4.801, 'time_total': 0.004801, 'header': {'X-Api-Error-Code': 'REQUEST_PARAM_INVALID', 'Content-Type': 'application/json', 'Content-Length': '22', 'Date': 'Thu, 02 Jul 2020 08:29:12 GMT'}}",
+      "time" : {
+        "start" : 1593678550979,
+        "stop" : 1593678550980,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"E:\\python_project\\InformationJava\\TestCase\\test_addHierarchy.py\", line 399, in test_addhierarchy_07\n    assertbody.assert_text(response['header']['X-Api-Error-Code'], errorcode)\n  File \"E:\\python_project\\InformationJava\\Common\\Assert.py\", line 83, in assert_text\n    assert body == expected_msg\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "82c3826b48060312",
+      "name" : "log",
+      "source" : "82c3826b48060312.txt",
+      "type" : "text/plain",
+      "size" : 6113
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "GetHierarchy"
+  }, {
+    "name" : "story",
+    "value" : "name传空格"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_addHierarchy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddhierarchy"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DN3J7GJ"
+  }, {
+    "name" : "thread",
+    "value" : "14080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_addHierarchy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c78f4d27a8cfda12.json",
+  "parameterValues" : [ ]
+}

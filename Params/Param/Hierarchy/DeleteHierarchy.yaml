@@ -57,19 +57,3 @@ DeleteHierarchy:
       responsemessage:
       responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
 
-    - casedec: "正常同时删除一个层级，下有用户"
-      url: /hierarchy/delete
-      selectsql:  UPDATE tb_user
-                  set hierarchy_id='@sqlresult'
-                  where register_name<>'admin'
-                  LIMIT 1;
-
-      data:
-        - id: []
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 400
-      responsemessage:
-      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';

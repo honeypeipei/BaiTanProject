@@ -1,0 +1,217 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "GetHierarchy",
+    "children" : [ {
+      "name" : "新增二级组织机构",
+      "children" : [ {
+        "name" : "test_addhierarchy_01",
+        "uid" : "809d8afee5295008",
+        "parentUid" : "6166edf14b74c68c81f45609ccc9e64b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593678549831,
+          "stop" : 1593678550344,
+          "duration" : 513
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6166edf14b74c68c81f45609ccc9e64b"
+    }, {
+      "name" : "创建三级组织",
+      "children" : [ {
+        "name" : "test_addhierarchy_02",
+        "uid" : "65ccbb36d1ccb889",
+        "parentUid" : "7b8ae9e2a8ece6ab84c8f89cf9a258c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593678550347,
+          "stop" : 1593678550939,
+          "duration" : 592
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b8ae9e2a8ece6ab84c8f89cf9a258c6"
+    }, {
+      "name" : "name字段缺失",
+      "children" : [ {
+        "name" : "test_addhierarchy_05",
+        "uid" : "78e26ccaf9257eae",
+        "parentUid" : "400e6cc51c956026dc88827ba34dc856",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593678550942,
+          "stop" : 1593678550955,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "400e6cc51c956026dc88827ba34dc856"
+    }, {
+      "name" : "name传空",
+      "children" : [ {
+        "name" : "test_addhierarchy_06",
+        "uid" : "a3eac7496c2019ea",
+        "parentUid" : "b0227f299c6aa4adfdcba248f9524f45",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593678550957,
+          "stop" : 1593678550967,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0227f299c6aa4adfdcba248f9524f45"
+    }, {
+      "name" : "name传空格",
+      "children" : [ {
+        "name" : "test_addhierarchy_07",
+        "uid" : "c78f4d27a8cfda12",
+        "parentUid" : "14bb6ad1cff2ec634d2d3aebc53ea279",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593678550969,
+          "stop" : 1593678550980,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14bb6ad1cff2ec634d2d3aebc53ea279"
+    }, {
+      "name" : "同一层级相同上级name重复",
+      "children" : [ {
+        "name" : "test_addhierarchy_08",
+        "uid" : "8d79e029df98da48",
+        "parentUid" : "fd28cc866948f53172a83a53d9325b47",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593678551032,
+          "stop" : 1593678551631,
+          "duration" : 599
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd28cc866948f53172a83a53d9325b47"
+    }, {
+      "name" : "同一层级不同上级name重复",
+      "children" : [ {
+        "name" : "test_addhierarchy_09",
+        "uid" : "b314b21b3b92ed6d",
+        "parentUid" : "390fb29b507e04422ba5aa29a612b058",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593678551633,
+          "stop" : 1593678552540,
+          "duration" : 907
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "390fb29b507e04422ba5aa29a612b058"
+    }, {
+      "name" : "获取目录",
+      "children" : [ {
+        "name" : "test_hierarchy_01",
+        "uid" : "5a84194241df86dd",
+        "parentUid" : "286d31cb9a061510ec4adbd758a4d402",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593678553115,
+          "stop" : 1593678553356,
+          "duration" : 241
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "286d31cb9a061510ec4adbd758a4d402"
+    } ],
+    "uid" : "b32e45095edc7e20f0d45bd3c77914c3"
+  }, {
+    "name" : "DeleteHierarchy",
+    "children" : [ {
+      "name" : "新增组织机构",
+      "children" : [ {
+        "name" : "test_hierarchy_01",
+        "uid" : "9a13da88b4b254ca",
+        "parentUid" : "6e64959dd13859bc416bceddaff47941",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593678552543,
+          "stop" : 1593678552862,
+          "duration" : 319
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e64959dd13859bc416bceddaff47941"
+    } ],
+    "uid" : "aa2b73e056f7662aab5afc1532a19e7c"
+  }, {
+    "name" : "EnableHierarchy",
+    "children" : [ {
+      "name" : "停用禁用组织",
+      "children" : [ {
+        "name" : "test_hierarchy_01",
+        "uid" : "653ddc19db0e7258",
+        "parentUid" : "e31a245b509e3eaf7a02d460dc044145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593678552864,
+          "stop" : 1593678553112,
+          "duration" : 248
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e31a245b509e3eaf7a02d460dc044145"
+    } ],
+    "uid" : "aba5c455d4735ece57fa1c8d0acb773d"
+  }, {
+    "name" : "SecondHierarchy",
+    "children" : [ {
+      "name" : "获取目录",
+      "children" : [ {
+        "name" : "test_secondhierarchy_01",
+        "uid" : "e0d44cc0b68fc87e",
+        "parentUid" : "6133a8393abf5470aaba3d5adcde891f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593678553364,
+          "stop" : 1593678553561,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6133a8393abf5470aaba3d5adcde891f"
+    } ],
+    "uid" : "4e5c92c58780111838395146e028c184"
+  }, {
+    "name" : "UpdateHierarchy",
+    "children" : [ {
+      "name" : "更新组织",
+      "children" : [ {
+        "name" : "test_hierarchy_01",
+        "uid" : "f1414adfd7ec4d7a",
+        "parentUid" : "e2a88ec7c75ad0f24259b649c6fa6fcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593678553564,
+          "stop" : 1593678553664,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e2a88ec7c75ad0f24259b649c6fa6fcf"
+    } ],
+    "uid" : "6d1aa96aec8551d51e5831bcba753b88"
+  } ]
+}

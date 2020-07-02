@@ -1,0 +1,121 @@
+[ {
+  "uid" : "f1414adfd7ec4d7a",
+  "name" : "test_hierarchy_01",
+  "time" : {
+    "start" : 1593678553564,
+    "stop" : 1593678553664,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b314b21b3b92ed6d",
+  "name" : "test_addhierarchy_09",
+  "time" : {
+    "start" : 1593678551633,
+    "stop" : 1593678552540,
+    "duration" : 907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "809d8afee5295008",
+  "name" : "test_addhierarchy_01",
+  "time" : {
+    "start" : 1593678549831,
+    "stop" : 1593678550344,
+    "duration" : 513
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "653ddc19db0e7258",
+  "name" : "test_hierarchy_01",
+  "time" : {
+    "start" : 1593678552864,
+    "stop" : 1593678553112,
+    "duration" : 248
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5a84194241df86dd",
+  "name" : "test_hierarchy_01",
+  "time" : {
+    "start" : 1593678553115,
+    "stop" : 1593678553356,
+    "duration" : 241
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c78f4d27a8cfda12",
+  "name" : "test_addhierarchy_07",
+  "time" : {
+    "start" : 1593678550969,
+    "stop" : 1593678550980,
+    "duration" : 11
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a13da88b4b254ca",
+  "name" : "test_hierarchy_01",
+  "time" : {
+    "start" : 1593678552543,
+    "stop" : 1593678552862,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "78e26ccaf9257eae",
+  "name" : "test_addhierarchy_05",
+  "time" : {
+    "start" : 1593678550942,
+    "stop" : 1593678550955,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65ccbb36d1ccb889",
+  "name" : "test_addhierarchy_02",
+  "time" : {
+    "start" : 1593678550347,
+    "stop" : 1593678550939,
+    "duration" : 592
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e0d44cc0b68fc87e",
+  "name" : "test_secondhierarchy_01",
+  "time" : {
+    "start" : 1593678553364,
+    "stop" : 1593678553561,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a3eac7496c2019ea",
+  "name" : "test_addhierarchy_06",
+  "time" : {
+    "start" : 1593678550957,
+    "stop" : 1593678550967,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d79e029df98da48",
+  "name" : "test_addhierarchy_08",
+  "time" : {
+    "start" : 1593678551032,
+    "stop" : 1593678551631,
+    "duration" : 599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

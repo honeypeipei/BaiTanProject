@@ -37,6 +37,9 @@ class AddHierarchy:
     responsesql = []
     responsecode = []
     casedec = []
+    errorcode = []
+    sqlpid = []
+    sqlname = []
     for i in range(0, len(params)):
         url.append(params[i]['url'])
         data.append(params[i]['data'])
@@ -45,6 +48,9 @@ class AddHierarchy:
         responsesql.append(params[i]['responsesql'])
         responsecode.append(params[i]['responsecode'])
         casedec.append(params[i]['casedec'])
+        errorcode.append(params[i]['errorcode'])
+        sqlpid.append(params[i]['sqlparent_id'])
+        sqlname.append(params[i]['sqlparent_name'])
 
 class DeleteHierarchy:
     log.info('解析yaml, Path:' + path_dir + '/Param/Hierarchy/Yaml/DeleteHierarchy.yaml')

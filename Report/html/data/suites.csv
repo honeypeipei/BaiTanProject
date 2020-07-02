@@ -1,0 +1,37 @@
+"Status","Name","Duration in ms","Description"
+"passed","TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_05","13","
+            用例描述：name字段缺失
+        "
+"passed","TestCase.test_deleteHierarchy.TestDeletehierarchy#test_hierarchy_01","319","
+            用例描述：新增组织机构
+        "
+"passed","TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_08","599","
+            用例描述：同一层级相同上级name重复
+        "
+"passed","TestCase.test_updateHierarchy.TestUpdatehierarchy#test_hierarchy_01","100","
+            用例描述：更新组织机构
+        "
+"passed","TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_06","10","
+            用例描述：name字段传空
+        "
+"passed","TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_09","907","
+            用例描述：同一层级不同上级name重复
+        "
+"passed","TestCase.test_secondHierarchy.Testsecondhierarchy#test_secondhierarchy_01","197","
+            用例描述：获取目录
+        "
+"failed","TestCase.test_gethierarchy.Testgethierarchy#test_hierarchy_01","241","
+            用例描述：获取目录
+        "
+"passed","TestCase.test_enableHierarchy.TestEnablehierarchy#test_hierarchy_01","248","
+            用例描述：停用禁用组织机构
+        "
+"passed","TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_02","592","
+            用例描述：创建三级组织
+        "
+"passed","TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_01","513","
+            用例描述：新增组织机构
+        "
+"failed","TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_07","11","
+            用例描述：name字段传空
+        "

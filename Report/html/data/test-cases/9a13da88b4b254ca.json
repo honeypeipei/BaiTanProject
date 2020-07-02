@@ -1,0 +1,113 @@
+{
+  "uid" : "9a13da88b4b254ca",
+  "name" : "test_hierarchy_01",
+  "fullName" : "TestCase.test_deleteHierarchy.TestDeletehierarchy#test_hierarchy_01",
+  "historyId" : "6d19a6fbd92763d28a44f85a8e2b40e3",
+  "time" : {
+    "start" : 1593678552543,
+    "stop" : 1593678552862,
+    "duration" : 319
+  },
+  "description" : "\n            用例描述：新增组织机构\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：新增组织机构\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：新增组织机构\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "写入Log",
+      "time" : {
+        "start" : 1593678552543,
+        "stop" : 1593678552544,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "开始请求接口,RUL: http://10.2.2.61:8093/hierarchy/delete,header:{'Content-Type': 'application/json;charset=utf-8', 'X-Api-Version': '1.X'},request:{'id': [2, 3]}",
+      "time" : {
+        "start" : 1593678552544,
+        "stop" : 1593678552862,
+        "duration" : 318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "82acf731443c1688",
+      "name" : "log",
+      "source" : "82acf731443c1688.txt",
+      "type" : "text/plain",
+      "size" : 290
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "DeleteHierarchy"
+  }, {
+    "name" : "story",
+    "value" : "新增组织机构"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_deleteHierarchy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDeletehierarchy"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DN3J7GJ"
+  }, {
+    "name" : "thread",
+    "value" : "14080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_deleteHierarchy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a13da88b4b254ca.json",
+  "parameterValues" : [ ]
+}

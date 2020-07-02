@@ -1,0 +1,67 @@
+INFO     root:Log.py:75 [INFO 2020-07-02 16:29:11]文件已经开始执行
+DEBUG    urllib3.connectionpool:connectionpool.py:225 Starting new HTTP connection (1): 10.2.2.61:8093
+DEBUG    urllib3.connectionpool:connectionpool.py:437 http://10.2.2.61:8093 "POST /hierarchy/add HTTP/1.1" 200 4
+DEBUG    urllib3.connectionpool:connectionpool.py:225 Starting new HTTP connection (1): 10.2.2.61:8093
+DEBUG    urllib3.connectionpool:connectionpool.py:437 http://10.2.2.61:8093 "POST /hierarchy/add HTTP/1.1" 200 29
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.058345278143332825
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.10618840622086576
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.058345278143332825
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.10618840622086576
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01

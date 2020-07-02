@@ -3,10 +3,9 @@
 AddHierarchy:
   dec: 创建层级
   parameters:
-    - casedec: "创建二级层级"
+    - casedec: "1创建二级层级"
       url: /hierarchy/add
       selectsql:
-
       data:
         -
           name: ""
@@ -18,8 +17,11 @@ AddHierarchy:
       }
       responsecode: 200
       responsesql: select name from sys_hierarchy where parent_id = 1
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
 
-    - casedec: "创建三级层级"
+    - casedec: "2创建三级层级"
       url: /hierarchy/add
       selectsql: SELECT id from sys_hierarchy where parent_id = 1 ORDER BY RAND() LIMIT 1
       data:
@@ -32,79 +34,114 @@ AddHierarchy:
       }
       responsecode: 200
       responsesql: SELECT name from sys_hierarchy where parent_id ='@sqlresult';
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
 
-    - casedec: "名称超长"
+#    - casedec: "3二级name重复"
+#      url: /hierarchy/add
+#      selectsql: SELECT name from sys_hierarchy where parent_id = 1 ORDER BY RAND() LIMIT 1
+#      data:
+#        - name: ''
+#      header: {
+#        "Content-Type": "application/json;charset=utf-8",
+#        "X-Api-Version": "1.X"
+#      }
+#      responsecode: 204
+#      responsesql:
+#      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+#      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+#      errorcode:
+#
+#    - casedec: "4三级name重复"
+#      url: /hierarchy/add
+#      selectsql: SELECT name from sys_hierarchy where parent_id <> 1 ORDER BY RAND() LIMIT 1
+#      data:
+#        - name: ''
+#      header: {
+#        "Content-Type": "application/json;charset=utf-8",
+#        "X-Api-Version": "1.X"
+#      }
+#      responsecode: 204
+#      responsesql:
+#      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+#      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+#      errorcode:
+
+    - casedec: "5name节点缺失"
       url: /hierarchy/add
-      selectsql: SELECT id from sys_hierarchy where parent_id IS NULL ORDER BY RAND() LIMIT 1
+      selectsql:
       data:
-        - name: "公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司"
-          parent_id: 55
+        - None
       header: {
         "Content-Type": "application/json;charset=utf-8",
         "X-Api-Version": "1.X"
       }
       responsecode: 200
-      responsesql: SELECT id,name,parent_id from tb_hierarchy where id ='@sqlresult';
+      responsesql:
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode: REQUEST_PARAM_INVALID
 
-    - casedec: "parent_id不存在"
-      url: /hierarchy/add
-      selectsql: SELECT id from sys_hierarchy where parent_id IS NULL ORDER BY RAND() LIMIT 1
-      data:
-        - name: "公司"
-          parent_id: 99999
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 204
-      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
-
-    - casedec: "name节点缺失"
-      url: /hierarchy/add
-      selectsql: SELECT id from sys_hierarchy where parent_id IS NULL ORDER BY RAND() LIMIT 1
-      data:
-        - parent_id: 99999
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 200
-      responsesql: SELECT id,name,parent_id from tb_hierarchy where id ='@sqlresult';
-
-    - casedec: "name值传空"
+    - casedec: "6name值传空"
       url: /hierarchy/add
       selectsql: SELECT id from sys_hierarchy where parent_id IS NULL ORDER BY RAND() LIMIT 1
       data:
         - name:
-          parent_id: 99999
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 200
-      responsesql: SELECT id,name,parent_id from tb_hierarchy where id ='@sqlresult';
-
-    - casedec: "name=''"
-      url: /hierarchy/add
-      selectsql: SELECT id from sys_hierarchy where parent_id IS NULL ORDER BY RAND() LIMIT 1
-      data:
-        - name: ''
-          parent_id: 99999
       header: {
         "Content-Type": "application/json;charset=utf-8",
         "X-Api-Version": "1.X"
       }
       responsecode: 200
       responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode: REQUEST_PARAM_INVALID
 
-    - casedec: "一级name重复"
+    - casedec: "7name值传空格"
       url: /hierarchy/add
-      selectsql: SELECT name,parent_id from sys_hierarchy where parent_id IS  NULL ORDER BY RAND() LIMIT 1
+      selectsql: SELECT id from sys_hierarchy where parent_id IS NULL ORDER BY RAND() LIMIT 1
       data:
-        - name: '公司'
+        - name: ' '
       header: {
         "Content-Type": "application/json;charset=utf-8",
         "X-Api-Version": "1.X"
       }
-      responsecode: 204
-      responsesql: SELECT id,name,parent_id from tb_hierarchy where id ='@sqlresult';
+      responsecode: 200
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
+
+    - casedec: "8同一层级相同上级name重复"
+      url: /hierarchy/add
+      selectsql: SELECT id from sys_hierarchy where parent_id <> 1 ORDER BY RAND() LIMIT 1
+      data:
+        - name: ''
+          parent_id: ''
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsesql: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
+
+    - casedec: "9.同一层级不同一上级name重复"
+      url: /hierarchy/add
+      selectsql: SELECT id from sys_hierarchy where parent_id <> 1 ORDER BY RAND() LIMIT 1
+      data:
+        - name:
+          parent_id:
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsesql:
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where id ='@sqlresult'
+      errorcode:
+

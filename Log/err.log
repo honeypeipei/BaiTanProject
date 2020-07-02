@@ -2,3 +2,8 @@
 [ERROR 2020-07-01 11:29:30]Response body msg != expected_msg, expected_msg is 1, body_msg is id
 [ERROR 2020-07-01 11:30:19]Response body msg != expected_msg, expected_msg is 1, body_msg is id
 [ERROR 2020-07-01 11:32:25]Response body msg != expected_msg, expected_msg is 1, body_msg is id
+[ERROR 2020-07-02 11:05:51]Response body != expected_msg, expected_msg is 204, body is 200
+[ERROR 2020-07-02 13:58:32]Response body != expected_msg, expected_msg is , body is REQUEST_PARAM_INVALID
+[ERROR 2020-07-02 14:04:52]Response body != expected_msg, expected_msg is True, body is 组织的名称已经存在
+[ERROR 2020-07-02 16:29:10]Response body != expected_msg, expected_msg is None, body is REQUEST_PARAM_INVALID
+[ERROR 2020-07-02 16:29:13]Response body msg != expected_msg, expected_msg is 6, body_msg is id

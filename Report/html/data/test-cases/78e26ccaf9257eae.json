@@ -1,0 +1,128 @@
+{
+  "uid" : "78e26ccaf9257eae",
+  "name" : "test_addhierarchy_05",
+  "fullName" : "TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_05",
+  "historyId" : "43d33f0cfd74f8c31ee696deb6b8edb1",
+  "time" : {
+    "start" : 1593678550942,
+    "stop" : 1593678550955,
+    "duration" : 13
+  },
+  "description" : "\n            用例描述：name字段缺失\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：name字段缺失\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n            用例描述：name字段缺失\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "写入Log",
+      "time" : {
+        "start" : 1593678550942,
+        "stop" : 1593678550942,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "开始请求接口,RUL: http://10.2.2.61:8093/hierarchy/add,header:{'Content-Type': 'application/json;charset=utf-8', 'X-Api-Version': '1.X'},request:None",
+      "time" : {
+        "start" : 1593678550942,
+        "stop" : 1593678550954,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "接口返回结果：{'code': 200, 'body': '请求参数非法', 'text': '\"请求参数非法\"', 'time_consuming': 7.616, 'time_total': 0.007616, 'header': {'X-Api-Error-Code': 'REQUEST_PARAM_INVALID', 'Content-Type': 'application/json', 'Content-Length': '20', 'Date': 'Thu, 02 Jul 2020 08:29:12 GMT'}}",
+      "time" : {
+        "start" : 1593678550955,
+        "stop" : 1593678550955,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "606443eddb7dcdb5",
+      "name" : "log",
+      "source" : "606443eddb7dcdb5.txt",
+      "type" : "text/plain",
+      "size" : 5953
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "name字段缺失"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "GetHierarchy"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_addHierarchy"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddhierarchy"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DN3J7GJ"
+  }, {
+    "name" : "thread",
+    "value" : "14080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_addHierarchy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78e26ccaf9257eae.json",
+  "parameterValues" : [ ]
+}

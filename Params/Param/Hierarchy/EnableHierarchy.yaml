@@ -19,3 +19,19 @@ EnableHierarchy:
       responsecode: 200
       responsemessage:
       responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+
+    - casedec: "正常停用多个组织"
+      url: /hierarchy/enable
+      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      data:
+        - ids:
+            - 2
+            - 3
+          enable_flag: 0
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
