@@ -7,3 +7,7 @@
 [ERROR 2020-07-02 14:04:52]Response body != expected_msg, expected_msg is True, body is 组织的名称已经存在
 [ERROR 2020-07-02 16:29:10]Response body != expected_msg, expected_msg is None, body is REQUEST_PARAM_INVALID
 [ERROR 2020-07-02 16:29:13]Response body msg != expected_msg, expected_msg is 6, body_msg is id
+[ERROR 2020-07-03 10:55:28]Response body != expected_msg, expected_msg is 组织名称已经存在, body is 组织的名称已经存在
+[ERROR 2020-07-03 11:27:55]Response body != expected_msg, expected_msg is 组织的名称已经存在, body is True
+[ERROR 2020-07-03 11:30:18]Response body != expected_msg, expected_msg is 组织的名称已经存在, body is True
+[ERROR 2020-07-03 11:33:46]Response body != expected_msg, expected_msg is 组织的名称已经存在, body is True

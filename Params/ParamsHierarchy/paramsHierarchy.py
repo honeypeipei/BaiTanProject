@@ -105,6 +105,9 @@ class UpdateHierarchy:
     responsecode = []
     casedec = []
     responsemessage = []
+    errorcode = []
+    sqlpid = []
+    sqlname = []
     for i in range(0, len(params)):
         url.append(params[i]['url'])
         data.append(params[i]['data'])
@@ -114,6 +117,9 @@ class UpdateHierarchy:
         responsecode.append(params[i]['responsecode'])
         responsemessage.append(params[i]['responsemessage'])
         casedec.append(params[i]['casedec'])
+        errorcode.append(params[i]['errorcode'])
+        sqlpid.append(params[i]['sqlparent_id'])
+        sqlname.append(params[i]['sqlparent_name'])
 
 class SecondHierarchy:
     log.info('解析yaml, Path:' + path_dir + '/Param/Hierarchy/Yaml/SecondLevalHierarchy.yaml')

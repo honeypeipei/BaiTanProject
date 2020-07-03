@@ -3,22 +3,83 @@
 UpdateHierarchy:
   dec: 更新组织架构
   parameters:
-    - casedec: "正常更新，层级名称"
+    - casedec: "1.正常更新，不变层级，正常更新名称"
       url: /hierarchy/update
       selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
       data:
-        -
-          id: 5
-          name: "西安国联信息-test"
-          parent_id: 1
-          description: ""
+        - id:
+          name:
+          parent_id:
+          description: '正常更新，不变层级，正常更新名称'
       header: {
         "Content-Type": "application/json;charset=utf-8",
         "X-Api-Version": "1.X"
       }
-      responsecode: 204
+      responsecode: 200
       responsemessage:
       responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+      sqlparent_id:
+      sqlparent_name:
+      errorcode:
+
+    - casedec: "2.正常更新，改变层级，正常更新名称"
+      url: /hierarchy/update
+      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      data:
+        - id:
+          name:
+          parent_id:
+          description: '正常更新，改变层级，正常更新名称'
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id is not NULL and parent_id <>'@sqlresult'  ORDER BY RAND() LIMIT 1;
+      sqlparent_name:
+      errorcode:
+
+
+    - casedec: "3.不变层级，名称重复"
+      url: /hierarchy/update
+      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      data:
+        - id:
+          name:
+          parent_id:
+          description: '不变层级，名称重复'
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+      sqlparent_id:
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult' ORDER BY RAND() LIMIT 1;
+      errorcode: '组织的名称已经存在'
+
+
+    - casedec: "4.变更层级，名称重复"
+      url: /hierarchy/update
+      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      data:
+        - id:
+          name:
+          parent_id:
+          description: '变更层级，名称重复'
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql:
+      sqlparent_id: SELECT id,name,parent_id from sys_hierarchy where parent_id is not NULL and parent_id <>'@sqlresult'  ORDER BY RAND() LIMIT 1;
+      sqlparent_name: SELECT name,parent_id from sys_hierarchy where parent_id ='@sqlresult' ORDER BY RAND() LIMIT 1;
+      errorcode: '组织的名称已经存在'
 
 
     - casedec: "id不存在"
@@ -35,6 +96,9 @@ UpdateHierarchy:
       responsecode: 204
       responsemessage:
       responsesql:
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
 
     - casedec: "缺少ID节点"
       url: /hierarchy/update
@@ -50,6 +114,9 @@ UpdateHierarchy:
       responsecode: 200
       responsemessage: "data should have required property 'id'"
       responsesql:
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
 
     - casedec: "Name超长"
       url: /hierarchy/update
@@ -65,6 +132,9 @@ UpdateHierarchy:
       responsecode: 200
       responsemessage: "data.name should NOT be longer than 32 characters"
       responsesql:
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
 
     - casedec: "Name传空值"
       url: /hierarchy/update
@@ -80,6 +150,9 @@ UpdateHierarchy:
       responsecode: 200
       responsemessage: "data.name should NOT be shorter than 1 characters"
       responsesql:
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
 
     - casedec: "Name不传值"
       url: /hierarchy/update
@@ -95,6 +168,9 @@ UpdateHierarchy:
       responsecode: 200
       responsemessage: "data.name should be string"
       responsesql:
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
 
     - casedec: "Name节点缺失"
       url: /hierarchy/update
@@ -109,6 +185,9 @@ UpdateHierarchy:
       responsecode: 200
       responsemessage: "data should have required property 'name'"
       responsesql:
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
 
     - casedec: "同级别Name重复"
       url: /hierarchy/update
@@ -126,6 +205,9 @@ UpdateHierarchy:
       responsecode: 400
       responsemessage: "data should have required property 'name'"
       responsesql:
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
 
     - casedec: "不同级别Name重复"
       url: /hierarchy/update
@@ -143,3 +225,6 @@ UpdateHierarchy:
       responsecode: 204
       responsemessage: "data should have required property 'name'"
       responsesql:
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:
