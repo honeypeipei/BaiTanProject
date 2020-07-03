@@ -23,10 +23,10 @@ import time
 class TestDeletehierarchy:
 
     @allure.severity('blocker')
-    @allure.story("新增组织机构")
-    def test_hierarchy_01(self):
+    @allure.story("正常删除一个层级")
+    def test_deletehierarchy_01(self):
         """
-            用例描述：新增组织机构
+            用例描述：正常删除一个层级
         """
 
         #写log
@@ -45,9 +45,19 @@ class TestDeletehierarchy:
         header = data.header[0]
         param = data.data[0]
         my_param = param[0]['id']
-        # my_param = list(param[0].values())
-        # print(json.dumps(my_param))
-        # print(my_param[0])
+        selectsql = data.selectsql[0]
+        responsecode = data.responsecode[0]
+        env = conf.environment
+
+        ids = SqlResult(selectsql, env).get_sqlresult()
+
+        # 参数化请求参数
+        with allure.step("获取输入参数值"):
+            try:
+                param[0]['id'].append(ids['id'])
+            except:
+                log.info("获取参数失败：{0}".format(param[0]))
+
 
         #请求接口
         api_url = req_url + urls
@@ -58,3 +68,9 @@ class TestDeletehierarchy:
         with allure.step("开始请求接口,RUL: {0},header:{1},request:{2}".format(api_url, header, param[0])):
             response = request.post_request(api_url, json.dumps(my_param), header)
             print(response)
+
+        # 增加断言
+        with allure.step("接口返回结果：{0}".format(response)):
+            if response['code'] == responsecode:
+                assertbody = Assertions()
+                assertbody.assert_text(response['body'], True)

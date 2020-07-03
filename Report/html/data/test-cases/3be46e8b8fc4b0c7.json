@@ -1,5 +1,5 @@
 {
-  "uid" : "a3eac7496c2019ea",
+  "uid" : "3be46e8b8fc4b0c7",
   "name" : "test_addhierarchy_06",
   "fullName" : "TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_06",
   "historyId" : "3457c667dfc5f11e87cb86567bf16f03",
@@ -27,10 +27,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "开始请求接口,RUL: http://10.2.2.61:8093/hierarchy/add,header:{'Content-Type': 'application/json;charset=utf-8', 'X-Api-Version': '1.X'},request:{'name': None}",
       "time" : {
@@ -42,10 +42,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "接口返回结果：{'code': 200, 'body': '[名称不能为空]', 'text': '\"[名称不能为空]\"', 'time_consuming': 4.302, 'time_total': 0.004302, 'header': {'X-Api-Error-Code': 'REQUEST_PARAM_INVALID', 'Content-Type': 'application/json', 'Content-Length': '22', 'Date': 'Thu, 02 Jul 2020 08:29:12 GMT'}}",
       "time" : {
@@ -57,23 +57,23 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "9d66dfaa13dbd1b6",
+      "uid" : "6d749dcf3e2a1cf4",
       "name" : "log",
-      "source" : "9d66dfaa13dbd1b6.txt",
+      "source" : "6d749dcf3e2a1cf4.txt",
       "type" : "text/plain",
       "size" : 5979
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
     "hasContent" : true,
-    "stepsCount" : 3
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -123,6 +123,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a3eac7496c2019ea.json",
+  "source" : "3be46e8b8fc4b0c7.json",
   "parameterValues" : [ ]
 }

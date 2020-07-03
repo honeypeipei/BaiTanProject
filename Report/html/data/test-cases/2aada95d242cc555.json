@@ -1,5 +1,5 @@
 {
-  "uid" : "65ccbb36d1ccb889",
+  "uid" : "2aada95d242cc555",
   "name" : "test_addhierarchy_02",
   "fullName" : "TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_02",
   "historyId" : "48e1a1e127870b7615eef6eab3cf7a5a",
@@ -27,10 +27,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "获取输入参数值",
       "time" : {
@@ -42,10 +42,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "开始请求接口,RUL: http://10.2.2.61:8093/hierarchy/add,header:{'Content-Type': 'application/json;charset=utf-8', 'X-Api-Version': '1.X'},request:{'name': '国联信息1593678550', 'parent_id': 15, 'description': '这是三级组织描述'}",
       "time" : {
@@ -57,10 +57,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "获取预期结果值成功，查询Sql：SELECT name from sys_hierarchy where parent_id ='15';,查询结果：[{'name': '国联信息1593678550'}]",
       "time" : {
@@ -72,10 +72,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "接口返回结果：{'code': 200, 'body': True, 'text': 'true', 'time_consuming': 303.788, 'time_total': 0.303788, 'header': {'Content-Type': 'application/json', 'Content-Length': '4', 'Date': 'Thu, 02 Jul 2020 08:29:12 GMT'}}",
       "time" : {
@@ -87,23 +87,23 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "d94799a13cf3d532",
+      "uid" : "e1f27c73b71ded78",
       "name" : "log",
-      "source" : "d94799a13cf3d532.txt",
+      "source" : "e1f27c73b71ded78.txt",
       "type" : "text/plain",
       "size" : 421
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
     "hasContent" : true,
-    "stepsCount" : 5
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -153,6 +153,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "65ccbb36d1ccb889.json",
+  "source" : "2aada95d242cc555.json",
   "parameterValues" : [ ]
 }

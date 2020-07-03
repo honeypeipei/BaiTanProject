@@ -7,7 +7,7 @@
       "name" : "AssertionError",
       "children" : [ {
         "name" : "test_addhierarchy_07",
-        "uid" : "c78f4d27a8cfda12",
+        "uid" : "b9ef7615c162a563",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {
@@ -19,7 +19,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_hierarchy_01",
-        "uid" : "5a84194241df86dd",
+        "uid" : "9b376c923ed17b00",
         "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
         "status" : "failed",
         "time" : {

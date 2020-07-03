@@ -5,22 +5,21 @@ DeleteHierarchy:
     -
       casedec: "正常删除一个层级"
       url: /hierarchy/delete
-      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      selectsql: SELECT id,name,parent_id from sys_hierarchy where enable_status = 0 ORDER BY RAND() LIMIT 1
       data:
         - id:
-            - 2
-            - 3
+            []
       header: {
         "Content-Type": "application/json;charset=utf-8",
         "X-Api-Version": "1.X"
       }
       responsecode: 200
       responsemessage:
-      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+      responsesql: select
 
     - casedec: "正常同时删除多个层级"
       url: /hierarchy/delete
-      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      selectsql: SELECT id,name,parent_id from sys_hierarchy where enable_status = 0 ORDER BY RAND() LIMIT 2
       data:
         - id: []
       header: {
@@ -29,13 +28,13 @@ DeleteHierarchy:
       }
       responsecode: 200
       responsemessage:
-      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+      responsesql:
 
     - casedec: "正常同时删除多个层级，级别不一致"
       url: /hierarchy/delete
       selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
       data:
-        - id: []
+          - id: []
       header: {
         "Content-Type": "application/json;charset=utf-8",
         "X-Api-Version": "1.X"

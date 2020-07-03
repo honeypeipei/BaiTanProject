@@ -1,5 +1,5 @@
 {
-  "uid" : "8d79e029df98da48",
+  "uid" : "8268cf56b938d1e8",
   "name" : "test_addhierarchy_08",
   "fullName" : "TestCase.test_addHierarchy.TestAddhierarchy#test_addhierarchy_08",
   "historyId" : "0f900e8f8bdbcced15010803858997e3",
@@ -27,10 +27,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "获取输入参数值",
       "time" : {
@@ -42,10 +42,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "开始请求接口,RUL: http://10.2.2.61:8093/hierarchy/add,header:{'Content-Type': 'application/json;charset=utf-8', 'X-Api-Version': '1.X'},request:{'name': '同层级同上级1593673435', 'parent_id': 23}",
       "time" : {
@@ -57,10 +57,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "接口返回结果：{'code': 200, 'body': '组织的名称已经存在', 'text': '\"组织的名称已经存在\"', 'time_consuming': 32.252, 'time_total': 0.032252, 'header': {'X-Api-Error-Code': 'HIERARCHY_NAME_IS_EXIST', 'Content-Type': 'application/json', 'Content-Length': '29', 'Date': 'Thu, 02 Jul 2020 08:29:14 GMT'}}",
       "time" : {
@@ -72,23 +72,23 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "7e3362bad06b08e1",
+      "uid" : "7db4e9614a7b05ee",
       "name" : "log",
-      "source" : "7e3362bad06b08e1.txt",
+      "source" : "7db4e9614a7b05ee.txt",
       "type" : "text/plain",
       "size" : 6201
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
     "hasContent" : true,
-    "stepsCount" : 4
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -138,6 +138,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8d79e029df98da48.json",
+  "source" : "8268cf56b938d1e8.json",
   "parameterValues" : [ ]
 }

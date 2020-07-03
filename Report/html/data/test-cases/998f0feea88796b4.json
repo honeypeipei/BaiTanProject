@@ -1,5 +1,5 @@
 {
-  "uid" : "f1414adfd7ec4d7a",
+  "uid" : "998f0feea88796b4",
   "name" : "test_hierarchy_01",
   "fullName" : "TestCase.test_updateHierarchy.TestUpdatehierarchy#test_hierarchy_01",
   "historyId" : "5f2654ffeb8d1c14ef8ce778e1515ec7",
@@ -27,10 +27,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "开始请求接口,RUL: http://10.2.2.61:8093/hierarchy/update,header:{'Content-Type': 'application/json;charset=utf-8', 'X-Api-Version': '1.X'},request:{'id': 5, 'name': '西安国联信息-test', 'parent_id': 1, 'description': ''}",
       "time" : {
@@ -42,23 +42,23 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "28579bf03b2bbb43",
+      "uid" : "2bc2f311db765d79",
       "name" : "log",
-      "source" : "28579bf03b2bbb43.txt",
+      "source" : "2bc2f311db765d79.txt",
       "type" : "text/plain",
       "size" : 290
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
     "hasContent" : true,
-    "stepsCount" : 2
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -108,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f1414adfd7ec4d7a.json",
+  "source" : "998f0feea88796b4.json",
   "parameterValues" : [ ]
 }

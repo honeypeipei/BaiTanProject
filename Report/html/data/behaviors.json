@@ -7,7 +7,7 @@
       "name" : "新增二级组织机构",
       "children" : [ {
         "name" : "test_addhierarchy_01",
-        "uid" : "809d8afee5295008",
+        "uid" : "9d0b1a9ae428b493",
         "parentUid" : "6166edf14b74c68c81f45609ccc9e64b",
         "status" : "passed",
         "time" : {
@@ -23,7 +23,7 @@
       "name" : "创建三级组织",
       "children" : [ {
         "name" : "test_addhierarchy_02",
-        "uid" : "65ccbb36d1ccb889",
+        "uid" : "2aada95d242cc555",
         "parentUid" : "7b8ae9e2a8ece6ab84c8f89cf9a258c6",
         "status" : "passed",
         "time" : {
@@ -39,7 +39,7 @@
       "name" : "name字段缺失",
       "children" : [ {
         "name" : "test_addhierarchy_05",
-        "uid" : "78e26ccaf9257eae",
+        "uid" : "49e39bb09a9f3334",
         "parentUid" : "400e6cc51c956026dc88827ba34dc856",
         "status" : "passed",
         "time" : {
@@ -55,7 +55,7 @@
       "name" : "name传空",
       "children" : [ {
         "name" : "test_addhierarchy_06",
-        "uid" : "a3eac7496c2019ea",
+        "uid" : "3be46e8b8fc4b0c7",
         "parentUid" : "b0227f299c6aa4adfdcba248f9524f45",
         "status" : "passed",
         "time" : {
@@ -71,7 +71,7 @@
       "name" : "name传空格",
       "children" : [ {
         "name" : "test_addhierarchy_07",
-        "uid" : "c78f4d27a8cfda12",
+        "uid" : "b9ef7615c162a563",
         "parentUid" : "14bb6ad1cff2ec634d2d3aebc53ea279",
         "status" : "failed",
         "time" : {
@@ -87,7 +87,7 @@
       "name" : "同一层级相同上级name重复",
       "children" : [ {
         "name" : "test_addhierarchy_08",
-        "uid" : "8d79e029df98da48",
+        "uid" : "8268cf56b938d1e8",
         "parentUid" : "fd28cc866948f53172a83a53d9325b47",
         "status" : "passed",
         "time" : {
@@ -103,7 +103,7 @@
       "name" : "同一层级不同上级name重复",
       "children" : [ {
         "name" : "test_addhierarchy_09",
-        "uid" : "b314b21b3b92ed6d",
+        "uid" : "8e6b3db8fb233323",
         "parentUid" : "390fb29b507e04422ba5aa29a612b058",
         "status" : "passed",
         "time" : {
@@ -119,7 +119,7 @@
       "name" : "获取目录",
       "children" : [ {
         "name" : "test_hierarchy_01",
-        "uid" : "5a84194241df86dd",
+        "uid" : "9b376c923ed17b00",
         "parentUid" : "286d31cb9a061510ec4adbd758a4d402",
         "status" : "failed",
         "time" : {
@@ -139,7 +139,7 @@
       "name" : "新增组织机构",
       "children" : [ {
         "name" : "test_hierarchy_01",
-        "uid" : "9a13da88b4b254ca",
+        "uid" : "f5b910c05ecf5173",
         "parentUid" : "6e64959dd13859bc416bceddaff47941",
         "status" : "passed",
         "time" : {
@@ -159,7 +159,7 @@
       "name" : "停用禁用组织",
       "children" : [ {
         "name" : "test_hierarchy_01",
-        "uid" : "653ddc19db0e7258",
+        "uid" : "cfdfb5db93f91bdb",
         "parentUid" : "e31a245b509e3eaf7a02d460dc044145",
         "status" : "passed",
         "time" : {
@@ -179,7 +179,7 @@
       "name" : "获取目录",
       "children" : [ {
         "name" : "test_secondhierarchy_01",
-        "uid" : "e0d44cc0b68fc87e",
+        "uid" : "59bbe74ec60aa9b4",
         "parentUid" : "6133a8393abf5470aaba3d5adcde891f",
         "status" : "passed",
         "time" : {
@@ -199,7 +199,7 @@
       "name" : "更新组织",
       "children" : [ {
         "name" : "test_hierarchy_01",
-        "uid" : "f1414adfd7ec4d7a",
+        "uid" : "998f0feea88796b4",
         "parentUid" : "e2a88ec7c75ad0f24259b649c6fa6fcf",
         "status" : "passed",
         "time" : {

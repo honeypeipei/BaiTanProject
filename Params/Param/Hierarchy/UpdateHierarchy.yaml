@@ -82,149 +82,109 @@ UpdateHierarchy:
       errorcode: '组织的名称已经存在'
 
 
-    - casedec: "id不存在"
-      url: /hierarchy/update
-      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
-
-      data:
-        - id: 999999
-          name: "公司"
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 204
-      responsemessage:
-      responsesql:
-      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
-      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
-      errorcode:
-
-    - casedec: "缺少ID节点"
-      url: /hierarchy/update
-      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
-
-      data:
-        -
-          name: "公司"
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 200
-      responsemessage: "data should have required property 'id'"
-      responsesql:
-      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
-      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
-      errorcode:
-
-    - casedec: "Name超长"
-      url: /hierarchy/update
-      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
-
-      data:
-        - id: 9
-          name: "公公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司司"
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 200
-      responsemessage: "data.name should NOT be longer than 32 characters"
-      responsesql:
-      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
-      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
-      errorcode:
-
-    - casedec: "Name传空值"
-      url: /hierarchy/update
-      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
-
-      data:
-        - id: 9
-          name: ""
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 200
-      responsemessage: "data.name should NOT be shorter than 1 characters"
-      responsesql:
-      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
-      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
-      errorcode:
-
-    - casedec: "Name不传值"
-      url: /hierarchy/update
-      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
-
-      data:
-        - id: 9
-          name:
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 200
-      responsemessage: "data.name should be string"
-      responsesql:
-      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
-      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
-      errorcode:
-
-    - casedec: "Name节点缺失"
-      url: /hierarchy/update
-      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
-
-      data:
-        - id: 9
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 200
-      responsemessage: "data should have required property 'name'"
-      responsesql:
-      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
-      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
-      errorcode:
-
-    - casedec: "同级别Name重复"
-      url: /hierarchy/update
-      selectsql: SELECT A.name,A.id,B.`name` as name1 from sys_hierarchy A
-                INNER JOIN tb_hierarchy B
-                on IFNULL(A.parent_id,0)=IFNULL(B.parent_id,0)
-                ORDER BY RAND() LIMIT 1
-      data:
-        - id: 9
-          name: "7897"
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 400
-      responsemessage: "data should have required property 'name'"
-      responsesql:
-      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
-      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
-      errorcode:
-
-    - casedec: "不同级别Name重复"
-      url: /hierarchy/update
-      selectsql: SELECT A.name,A.id,B.`name` as name1 from sys_hierarchy A
-                INNER JOIN tb_hierarchy B
-                on IFNULL(A.parent_id,0)<>IFNULL(B.parent_id,0)
-                ORDER BY RAND() LIMIT 1
-      data:
-        - id: 9
-          name: "7897"
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-        "X-Api-Version": "1.X"
-      }
-      responsecode: 204
-      responsemessage: "data should have required property 'name'"
-      responsesql:
-      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
-      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
-      errorcode:
+#    - casedec: "id不存在"
+#      url: /hierarchy/update
+#      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+#
+#      data:
+#        - id: 999999
+#          name: "公司"
+#      header: {
+#        "Content-Type": "application/json;charset=utf-8",
+#        "X-Api-Version": "1.X"
+#      }
+#      responsecode: 204
+#      responsemessage:
+#      responsesql:
+#      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+#      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+#      errorcode:
+#
+#    - casedec: "缺少ID节点"
+#      url: /hierarchy/update
+#      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+#
+#      data:
+#        -
+#          name: "公司"
+#      header: {
+#        "Content-Type": "application/json;charset=utf-8",
+#        "X-Api-Version": "1.X"
+#      }
+#      responsecode: 200
+#      responsemessage: "data should have required property 'id'"
+#      responsesql:
+#      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+#      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+#      errorcode:
+#
+#    - casedec: "Name超长"
+#      url: /hierarchy/update
+#      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+#
+#      data:
+#        - id: 9
+#          name: "公公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司公司司"
+#      header: {
+#        "Content-Type": "application/json;charset=utf-8",
+#        "X-Api-Version": "1.X"
+#      }
+#      responsecode: 200
+#      responsemessage: "data.name should NOT be longer than 32 characters"
+#      responsesql:
+#      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+#      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+#      errorcode:
+#
+#    - casedec: "Name传空值"
+#      url: /hierarchy/update
+#      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+#
+#      data:
+#        - id: 9
+#          name: ""
+#      header: {
+#        "Content-Type": "application/json;charset=utf-8",
+#        "X-Api-Version": "1.X"
+#      }
+#      responsecode: 200
+#      responsemessage: "data.name should NOT be shorter than 1 characters"
+#      responsesql:
+#      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+#      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+#      errorcode:
+#
+#    - casedec: "Name不传值"
+#      url: /hierarchy/update
+#      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+#
+#      data:
+#        - id: 9
+#          name:
+#      header: {
+#        "Content-Type": "application/json;charset=utf-8",
+#        "X-Api-Version": "1.X"
+#      }
+#      responsecode: 200
+#      responsemessage: "data.name should be string"
+#      responsesql:
+#      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+#      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+#      errorcode:
+#
+#    - casedec: "Name节点缺失"
+#      url: /hierarchy/update
+#      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+#
+#      data:
+#        - id: 9
+#      header: {
+#        "Content-Type": "application/json;charset=utf-8",
+#        "X-Api-Version": "1.X"
+#      }
+#      responsecode: 200
+#      responsemessage: "data should have required property 'name'"
+#      responsesql:
+#      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+#      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+#      errorcode:

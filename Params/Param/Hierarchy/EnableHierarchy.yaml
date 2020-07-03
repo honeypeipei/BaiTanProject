@@ -3,14 +3,12 @@ EnableHierarchy:
   dec: 停用组织结构
   parameters:
     -
-      casedec: "正常停用一个组织"
+      casedec: "1.正常停用一个组织"
       url: /hierarchy/enable
-      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      selectsql: SELECT id,name,parent_id from sys_hierarchy where enable_status = 1  ORDER BY RAND() LIMIT 1
       data:
-        -
-          ids:
-            - 2
-            - 3
+        - ids:
+            []
           enable_flag: 0
       header: {
         "Content-Type": "application/json;charset=utf-8",
@@ -20,13 +18,87 @@ EnableHierarchy:
       responsemessage:
       responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
 
-    - casedec: "正常停用多个组织"
+    - casedec: "2.正常停用多个组织"
       url: /hierarchy/enable
-      selectsql: SELECT id,name,parent_id from sys_hierarchy  ORDER BY RAND() LIMIT 1
+      selectsql: SELECT id from sys_hierarchy where enable_status = 1  ORDER BY RAND() LIMIT 2
       data:
         - ids:
-            - 2
-            - 3
+            []
+          enable_flag: 0
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+
+    - casedec: "3.正常停用末级组织"
+      url: /hierarchy/enable
+      selectsql: SELECT id from sys_hierarchy where enable_status = 1  ORDER BY RAND() LIMIT 2
+      data:
+        - ids:
+            []
+          enable_flag: 0
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+
+    - casedec: "4.正常停用任意父级组织"
+      url: /hierarchy/enable
+      selectsql: SELECT id from sys_hierarchy where enable_status = 1  ORDER BY RAND() LIMIT 2
+      data:
+        - ids:
+            []
+          enable_flag: 0
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+
+    - casedec: "5.正常停用多个末级组织"
+      url: /hierarchy/enable
+      selectsql: SELECT id from sys_hierarchy where enable_status = 1  ORDER BY RAND() LIMIT 2
+      data:
+        - ids:
+            []
+          enable_flag: 0
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+
+    - casedec: "6.正常停用多个父级组织"
+      url: /hierarchy/enable
+      selectsql: SELECT id from sys_hierarchy where enable_status = 1  ORDER BY RAND() LIMIT 2
+      data:
+        - ids:
+            []
+          enable_flag: 0
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Api-Version": "1.X"
+      }
+      responsecode: 200
+      responsemessage:
+      responsesql: SELECT id,name,parent_id from sys_hierarchy where id ='@sqlresult';
+
+    - casedec: "6.正常停用多个父级的组织和末级组织"
+      url: /hierarchy/enable
+      selectsql: SELECT id from sys_hierarchy where enable_status = 1  ORDER BY RAND() LIMIT 2
+      data:
+        - ids:
+            []
           enable_flag: 0
       header: {
         "Content-Type": "application/json;charset=utf-8",
