@@ -1,0 +1,30 @@
+---
+
+AddProduct:
+  dec: 新增商品
+  parameters:
+    - casedec: "1.只传商品名称"
+      url: /customer/product/v1/product
+      selectsql:
+      data:
+        -
+          productName: "only商品name-test"
+      header: {
+        "X-Auth-Token": "42e2738f96d04d2a82b7a61c3ac34b23",
+        "x-request-sys": "wxmini"
+      }
+      responsecode: 200
+      responsesql: SELECT * from bt_product_info where product_name ='@pname'
+      errorcode:
+    - casedec: "2.商品名称为空"
+      url: /customer/product/v1/product
+      selectsql:
+      data:
+        - productName: ""
+      header: {
+        "X-Auth-Token": "42e2738f96d04d2a82b7a61c3ac34b23",
+        "x-request-sys": "wxmini"
+      }
+      responsecode: 200
+      responsesql:
+      errorcode:

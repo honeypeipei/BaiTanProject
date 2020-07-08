@@ -1,0 +1,26 @@
+---
+
+AddHierarchy:
+  dec: 摊主认证
+  parameters:
+    - casedec: "正确认证"
+      url: /hierarchy/add
+      selectsql:
+      data:
+        -
+          isNumber: ""
+          mobilePhone: ""
+          name: ""
+          sex: ""
+          vcode: ""
+          wxcode: "081Umoq50MHDbG1WXap50Onjq50Umoqk"
+      header: {
+        "Content-Type": "application/json;charset=utf-8",
+        "X-Auth-Token": " 42e2738f96d04d2a82b7a61c3ac34b23"
+        "x-request-sys": "wxmini"
+      }
+      responsecode: 200
+      responsesql: select name from sys_hierarchy where parent_id = 1
+      sqlparent_id: SELECT id from sys_hierarchy where parent_id <>'@sqlresult'
+      sqlparent_name: SELECT name from sys_hierarchy where parent_id ='@sqlresult'
+      errorcode:

@@ -2,50 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2eb4c09-3c55-4fe4-ab90-47c082d9e18c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Params/Param/Identify.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Params/Param/Product/addProduct.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Params/ParamsProducts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Params/ParamsProducts/paramsProducts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_addProduct.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/err.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/err.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conf/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Conf/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Params/Param/Hierarchy/DeleteHierarchy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Params/Param/Hierarchy/DeleteHierarchy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Params/Param/Hierarchy/EnableHierarchy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Params/Param/Hierarchy/EnableHierarchy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Params/Param/Hierarchy/UpdateHierarchy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Params/Param/Hierarchy/UpdateHierarchy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/28579bf03b2bbb43.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/3888e471dd2e809.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/3e6248093813f328.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/606443eddb7dcdb5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/7e3362bad06b08e1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/82acf731443c1688.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/82c3826b48060312.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/8573be76256373ac.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/982bdbe7989b8758.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/9d66dfaa13dbd1b6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/d94799a13cf3d532.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/attachments/f414f57d6e21dac6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/data/behaviors.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/data/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/5a84194241df86dd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/653ddc19db0e7258.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/65ccbb36d1ccb889.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/78e26ccaf9257eae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/809d8afee5295008.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/8d79e029df98da48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/9a13da88b4b254ca.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/a3eac7496c2019ea.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/b314b21b3b92ed6d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/c78f4d27a8cfda12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/e0d44cc0b68fc87e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/test-cases/f1414adfd7ec4d7a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/html/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/html/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_deleteHierarchy.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_deleteHierarchy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_enableHierarchy.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_enableHierarchy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +23,7 @@
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_updateHierarchy_TestUpdatehierarchy_test_updatehierarchy_02.coverage" NAME="pytest for test_updateHierarchy.TestUpdatehierarchy.test_updatehierarchy_02 Coverage Results" MODIFIED="1593743744679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_updateHierarchy_TestUpdatehierarchy_test_hierarchy_01.coverage" NAME="pytest for test_updateHierarchy.TestUpdatehierarchy.test_hierarchy_01 Coverage Results" MODIFIED="1593570239768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_deleteHierarchy_TestAddhierarchy_test_hierarchy_01.coverage" NAME="pytest for test_deleteHierarchy.TestAddhierarchy.test_hierarchy_01 Coverage Results" MODIFIED="1593516998285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/BaiTanProject$pytest_for_test_addProduct_TestAddProduct_test_addproduct_01.coverage" NAME="pytest for test_addProduct.TestAddProduct.test_addproduct_01 Coverage Results" MODIFIED="1594197658212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_enableHierarchy_TestEnablehierarchy_test_hierarchy_01.coverage" NAME="pytest for test_enableHierarchy.TestEnablehierarchy.test_hierarchy_01 Coverage Results" MODIFIED="1593757454136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_addHierarchy_TestAddhierarchy_test_addhierarchy_08.coverage" NAME="pytest for test_addHierarchy.TestAddhierarchy.test_addhierarchy_08 Coverage Results" MODIFIED="1593673643742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_addHierarchy_TestAddhierarchy_test_addhierarchy_02.coverage" NAME="pytest for test_addHierarchy.TestAddhierarchy.test_addhierarchy_02 Coverage Results" MODIFIED="1593591468623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
@@ -67,6 +32,7 @@
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_addHierarchy_TestAddhierarchy_test_addhierarchy_05.coverage" NAME="pytest for test_addHierarchy.TestAddhierarchy.test_addhierarchy_05 Coverage Results" MODIFIED="1593661190038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_updateHierarchy_TestUpdatehierarchy_test_updatehierarchy_01.coverage" NAME="pytest for test_updateHierarchy.TestUpdatehierarchy.test_updatehierarchy_01 Coverage Results" MODIFIED="1593742414047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_gethierarchy_Testgethierarchy_test_hierarchy_01__1_.coverage" NAME="pytest for test_gethierarchy.Testgethierarchy.test_hierarchy_01 (1) Coverage Results" MODIFIED="1593431645864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/BaiTanProject$pytest_for_test_addProduct_TestAddProduct_test_addproduct_02.coverage" NAME="pytest for test_addProduct.TestAddProduct.test_addproduct_02 Coverage Results" MODIFIED="1594197227364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_enableHierarchy_TestEnablehierarchy_test_enablehierarchy_02.coverage" NAME="pytest for test_enableHierarchy.TestEnablehierarchy.test_enablehierarchy_02 Coverage Results" MODIFIED="1593760105561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_addHierarchy_TestAddhierarchy_test_hierarchy_01.coverage" NAME="pytest for test_addHierarchy.TestAddhierarchy.test_hierarchy_01 Coverage Results" MODIFIED="1593510322332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_addHierarchy_TestAddhierarchy_test_addhierarchy_07.coverage" NAME="pytest for test_addHierarchy.TestAddhierarchy.test_addhierarchy_07 Coverage Results" MODIFIED="1593670277892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
@@ -88,83 +54,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Params/ParamsHierarchy/paramsHierarchy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="51" column="14" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="14" />
-              <folding>
-                <element signature="e#73#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase/test_updateHierarchy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="237" column="51" lean-forward="true" selection-start-line="237" selection-start-column="51" selection-end-line="237" selection-end-column="51" />
-              <folding>
-                <element signature="e#77#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCase/test_addHierarchy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="459" column="75" selection-start-line="459" selection-start-column="71" selection-end-line="459" selection-end-column="75" />
-              <folding>
-                <element signature="e#74#87#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/DeleteHierarchy.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="36" column="18" selection-start-line="35" selection-start-column="6" selection-end-line="36" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/EnableHierarchy.yaml">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_addProduct.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="95" column="34" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+            <state relative-caret-position="2348">
+              <caret line="134" column="25" lean-forward="true" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
+              <folding>
+                <element signature="e#72#85#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/UpdateHierarchy.yaml">
+        <entry file="file://$PROJECT_DIR$/Params/ParamsProducts/paramsProducts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+            <state relative-caret-position="-34">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="17" />
+              <folding>
+                <element signature="e#71#80#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/AddHierarchy.yaml">
+        <entry file="file://$PROJECT_DIR$/Params/Param/Product/addProduct.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="133" column="61" selection-start-line="133" selection-start-column="61" selection-end-line="133" selection-end-column="61" />
+            <state relative-caret-position="239">
+              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -201,7 +119,6 @@
         <option value="$PROJECT_DIR$/Common/Session.py" />
         <option value="$PROJECT_DIR$/Common/Shell.py" />
         <option value="$PROJECT_DIR$/Common/SqlResult.py" />
-        <option value="$PROJECT_DIR$/Conf/config.ini" />
         <option value="$PROJECT_DIR$/Conf/Config.py" />
         <option value="$PROJECT_DIR$/Common/Request.py" />
         <option value="$PROJECT_DIR$/Params/params.py" />
@@ -220,12 +137,17 @@
         <option value="$PROJECT_DIR$/Params/Param/Hierarchy/UpdateHierarchy.yaml" />
         <option value="$PROJECT_DIR$/Params/Param/Hierarchy/DeleteHierarchy.yaml" />
         <option value="$PROJECT_DIR$/Params/Param/Hierarchy/EnableHierarchy.yaml" />
+        <option value="$PROJECT_DIR$/Params/Param/Identify.yaml" />
+        <option value="$PROJECT_DIR$/Conf/config.ini" />
+        <option value="$PROJECT_DIR$/Params/ParamsProducts/paramsProducts.py" />
+        <option value="$PROJECT_DIR$/Params/Param/Product/addProduct.yaml" />
+        <option value="$PROJECT_DIR$/TestCase/test_addProduct.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-39" />
-    <option name="y" value="43" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
+    <option name="y" value="78" />
     <option name="width" value="1940" />
     <option name="height" value="1042" />
   </component>
@@ -240,52 +162,48 @@
         <subPane>
           <expand>
             <path>
-              <item name="InformationJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationJava" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTanProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InformationJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationJava" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTanProject" type="462c0819:PsiDirectoryNode" />
               <item name="Conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InformationJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationJava" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTanProject" type="462c0819:PsiDirectoryNode" />
               <item name="Params" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InformationJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationJava" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTanProject" type="462c0819:PsiDirectoryNode" />
               <item name="Params" type="462c0819:PsiDirectoryNode" />
               <item name="Param" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InformationJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationJava" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTanProject" type="462c0819:PsiDirectoryNode" />
               <item name="Params" type="462c0819:PsiDirectoryNode" />
               <item name="Param" type="462c0819:PsiDirectoryNode" />
               <item name="Hierarchy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InformationJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationJava" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTanProject" type="462c0819:PsiDirectoryNode" />
               <item name="Params" type="462c0819:PsiDirectoryNode" />
-              <item name="ParamsHierarchy" type="462c0819:PsiDirectoryNode" />
+              <item name="Param" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InformationJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationJava" type="462c0819:PsiDirectoryNode" />
-              <item name="Report" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTanProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Params" type="462c0819:PsiDirectoryNode" />
+              <item name="ParamsProducts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="InformationJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationJava" type="462c0819:PsiDirectoryNode" />
-              <item name="Report" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InformationJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InformationJava" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaiTanProject" type="462c0819:PsiDirectoryNode" />
               <item name="TestCase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -320,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python tests.pytest for test_addProduct.TestAddProduct.test_addproduct_01">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="InformationJava" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -365,6 +283,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="InformationJava" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_addProduct.TestAddProduct.test_addproduct_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_02" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="InformationJava" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_addProduct.TestAddProduct.test_addproduct_02&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_deleteHierarchy.TestDeletehierarchy.test_deletehierarchy_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="InformationJava" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -378,38 +328,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_deleteHierarchy.TestDeletehierarchy.test_deletehierarchy_01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_enableHierarchy.TestEnablehierarchy.test_enablehierarchy_02" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="InformationJava" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_enableHierarchy.TestEnablehierarchy.test_enablehierarchy_02&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_enableHierarchy.TestEnablehierarchy.test_hierarchy_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="InformationJava" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_enableHierarchy.TestEnablehierarchy.test_hierarchy_01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -431,19 +349,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python tests.pytest for test_enableHierarchy.TestEnablehierarchy.test_hierarchy_01" />
-      <item itemvalue="Python tests.pytest for test_enableHierarchy.TestEnablehierarchy.test_enablehierarchy_02" />
-      <item itemvalue="Python tests.pytest for test_deleteHierarchy.TestDeletehierarchy.test_deletehierarchy_01" />
       <item itemvalue="Python.run" />
+      <item itemvalue="Python tests.pytest for test_deleteHierarchy.TestDeletehierarchy.test_deletehierarchy_01" />
       <item itemvalue="Python tests.pytest in test_addHierarchy.py" />
+      <item itemvalue="Python tests.pytest for test_addProduct.TestAddProduct.test_addproduct_01" />
+      <item itemvalue="Python tests.pytest for test_addProduct.TestAddProduct.test_addproduct_02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_addProduct.TestAddProduct.test_addproduct_01" />
+        <item itemvalue="Python tests.pytest for test_addProduct.TestAddProduct.test_addproduct_02" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python tests.pytest in test_addHierarchy.py" />
         <item itemvalue="Python tests.pytest for test_deleteHierarchy.TestDeletehierarchy.test_deletehierarchy_01" />
-        <item itemvalue="Python tests.pytest for test_enableHierarchy.TestEnablehierarchy.test_enablehierarchy_02" />
-        <item itemvalue="Python tests.pytest for test_enableHierarchy.TestEnablehierarchy.test_hierarchy_01" />
       </list>
     </recent_temporary>
   </component>
@@ -464,56 +382,59 @@
       <workItem from="1593504231885" duration="15909000" />
       <workItem from="1593563325493" duration="23246000" />
       <workItem from="1593652544639" duration="21978000" />
-      <workItem from="1593736870781" duration="21695000" />
+      <workItem from="1593736870781" duration="22063000" />
+      <workItem from="1593849244792" duration="635000" />
+      <workItem from="1594112993788" duration="1764000" />
+      <workItem from="1594194248239" duration="3410000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_enableHierarchy_TestEnablehierarchy_test_enablehierarchy_02 - 2020.07.03 at 15h 05m 49s.xml">
-      <configuration name="pytest for test_enableHierarchy.TestEnablehierarchy.test_enablehierarchy_02" configurationId="tests" />
+    <history-entry file="pytest_for_test_addProduct_TestAddProduct_test_addproduct_01 - 2020.07.08 at 16h 12m 13s.xml">
+      <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_01" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_enableHierarchy_TestEnablehierarchy_test_enablehierarchy_02 - 2020.07.03 at 15h 08m 28s.xml">
-      <configuration name="pytest for test_enableHierarchy.TestEnablehierarchy.test_enablehierarchy_02" configurationId="tests" />
+    <history-entry file="pytest_for_test_addProduct_TestAddProduct_test_addproduct_01 - 2020.07.08 at 16h 20m 04s.xml">
+      <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_01" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_deleteHierarchy_TestDeletehierarchy_test_deletehierarchy_01 - 2020.07.03 at 15h 18m 46s.xml">
-      <configuration name="pytest for test_deleteHierarchy.TestDeletehierarchy.test_deletehierarchy_01" configurationId="tests" />
+    <history-entry file="pytest_for_test_addProduct_TestAddProduct_test_addproduct_01 - 2020.07.08 at 16h 23m 32s.xml">
+      <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_01" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_deleteHierarchy_TestDeletehierarchy_test_deletehierarchy_01 - 2020.07.03 at 15h 19m 11s.xml">
-      <configuration name="pytest for test_deleteHierarchy.TestDeletehierarchy.test_deletehierarchy_01" configurationId="tests" />
+    <history-entry file="pytest_for_test_addProduct_TestAddProduct_test_addproduct_01 - 2020.07.08 at 16h 23m 39s.xml">
+      <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_01" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_deleteHierarchy_TestDeletehierarchy_test_deletehierarchy_01 - 2020.07.03 at 15h 24m 21s.xml">
-      <configuration name="pytest for test_deleteHierarchy.TestDeletehierarchy.test_deletehierarchy_01" configurationId="tests" />
+    <history-entry file="pytest_for_test_addProduct_TestAddProduct_test_addproduct_01 - 2020.07.08 at 16h 25m 06s.xml">
+      <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_01" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_deleteHierarchy_TestDeletehierarchy_test_deletehierarchy_01 - 2020.07.03 at 15h 24m 48s.xml">
-      <configuration name="pytest for test_deleteHierarchy.TestDeletehierarchy.test_deletehierarchy_01" configurationId="tests" />
+    <history-entry file="pytest_for_test_addProduct_TestAddProduct_test_addproduct_01 - 2020.07.08 at 16h 27m 17s.xml">
+      <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_01" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_deleteHierarchy_TestDeletehierarchy_test_deletehierarchy_01 - 2020.07.03 at 15h 24m 52s.xml">
-      <configuration name="pytest for test_deleteHierarchy.TestDeletehierarchy.test_deletehierarchy_01" configurationId="tests" />
+    <history-entry file="pytest_for_test_addProduct_TestAddProduct_test_addproduct_02 - 2020.07.08 at 16h 32m 47s.xml">
+      <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_deleteHierarchy_TestDeletehierarchy_test_deletehierarchy_01 - 2020.07.03 at 15h 29m 55s.xml">
-      <configuration name="pytest for test_deleteHierarchy.TestDeletehierarchy.test_deletehierarchy_01" configurationId="tests" />
+    <history-entry file="pytest_for_test_addProduct_TestAddProduct_test_addproduct_02 - 2020.07.08 at 16h 33m 32s.xml">
+      <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_addHierarchy_py - 2020.07.03 at 16h 55m 59s.xml">
-      <configuration name="pytest in test_addHierarchy.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_addProduct_TestAddProduct_test_addproduct_02 - 2020.07.08 at 16h 33m 48s.xml">
+      <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_addHierarchy_py - 2020.07.03 at 16h 57m 13s.xml">
-      <configuration name="pytest in test_addHierarchy.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_addProduct_TestAddProduct_test_addproduct_01 - 2020.07.08 at 16h 40m 59s.xml">
+      <configuration name="pytest for test_addProduct.TestAddProduct.test_addproduct_01" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98469000" />
+    <option name="totallyTimeSpent" value="104646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-12" y="78" width="1940" height="1042" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20010729" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20770878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3011111" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37333333" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5146727" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37246048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -615,30 +536,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Common/Shell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/Session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/MyEncoder.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/Hash.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Common/Email.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -668,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conf/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="90" selection-start-line="10" selection-start-column="1" selection-end-line="12" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Params/params.py" />
     <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy.yaml" />
     <entry file="file://D:/软件/python/Lib/codecs.py">
@@ -695,13 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conf/Config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
@@ -809,41 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/软件/python/Lib/site-packages/_pytest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/软件/python/Lib/site-packages/pluggy/callers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="199" column="43" lean-forward="true" selection-start-line="199" selection-start-column="43" selection-end-line="199" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/软件/python/Lib/site-packages/pluggy/hooks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="285" selection-start-line="285" selection-end-line="285" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/软件/python/Lib/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/软件/python/Lib/site-packages/pluggy/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Common/Assert.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -889,68 +737,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_updateHierarchy.py">
+    <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/DeleteHierarchy.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="237" column="51" lean-forward="true" selection-start-line="237" selection-start-column="51" selection-end-line="237" selection-end-column="51" />
-          <folding>
-            <element signature="e#77#90#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="684">
+          <caret line="36" column="18" selection-start-line="35" selection-start-column="6" selection-end-line="36" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Params/ParamsHierarchy/paramsHierarchy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="51" column="14" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="14" />
-          <folding>
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/AddHierarchy.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="133" column="61" selection-start-line="133" selection-start-column="61" selection-end-line="133" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_addHierarchy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="459" column="75" selection-start-line="459" selection-start-column="71" selection-end-line="459" selection-end-column="75" />
-          <folding>
-            <element signature="e#74#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/DeleteHierarchy.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="36" column="18" selection-start-line="35" selection-start-column="6" selection-end-line="36" selection-end-column="18" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/UpdateHierarchy.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="1539">
           <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/EnableHierarchy.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="95" column="34" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+        <state relative-caret-position="570">
+          <caret line="93" column="67" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_updateHierarchy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4237">
+          <caret line="237" column="51" selection-start-line="237" selection-start-column="51" selection-end-line="237" selection-end-column="51" />
+          <folding>
+            <element signature="e#77#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Params/Param/Identify.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_addHierarchy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="87" column="49" lean-forward="true" selection-start-line="4" selection-end-line="87" selection-end-column="49" />
+          <folding>
+            <element signature="e#74#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Params/ParamsHierarchy/paramsHierarchy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="52" column="51" lean-forward="true" selection-start-line="5" selection-end-line="52" selection-end-column="51" />
+          <folding>
+            <element signature="e#73#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conf/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/软件/python/Lib/site-packages/_pytest/skipping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/软件/python/Lib/site-packages/pytest_assume/plugin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/软件/python/Lib/site-packages/pluggy/hooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="285" selection-start-line="285" selection-end-line="285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/软件/python/Lib/site-packages/_pytest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/软件/python/Lib/site-packages/pluggy/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conf/Config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="68" column="77" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/软件/python/Lib/site-packages/pluggy/callers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/软件/python/Lib/site-packages/_pytest/python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/AddHierarchy.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" column="16" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Params/ParamsProducts/paramsProducts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="e#71#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Params/Param/Product/addProduct.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_addProduct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2348">
+          <caret line="134" column="25" lean-forward="true" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
+          <folding>
+            <element signature="e#72#85#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
