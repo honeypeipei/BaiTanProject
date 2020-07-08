@@ -1266,3 +1266,20 @@
 [INFO 2020-07-08 16:40:59]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Product/Yaml/addProduct.yaml
 [INFO 2020-07-08 16:40:59]文件已开始执行
 [INFO 2020-07-08 16:40:59]查询结果数据库成功：SELECT * from bt_product_info where product_name ='只传商品名称1594197659'
+[INFO 2020-07-08 16:56:20]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Product/Yaml/getProduct.yaml
+[INFO 2020-07-08 16:56:20]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Product/Yaml/addProduct.yaml
+[INFO 2020-07-08 16:57:14]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Product/Yaml/getProduct.yaml
+[INFO 2020-07-08 16:57:14]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Product/Yaml/addProduct.yaml
+[INFO 2020-07-08 16:57:14]文件已经开始执行
+[INFO 2020-07-08 16:58:36]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Product/Yaml/getProduct.yaml
+[INFO 2020-07-08 16:58:36]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Product/Yaml/addProduct.yaml
+[INFO 2020-07-08 16:58:36]文件已经开始执行
+[INFO 2020-07-08 16:58:36]查询结果数据库成功：SELECT * from bt_product_info ORDER BY id
+[INFO 2020-07-08 16:59:44]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Product/Yaml/getProduct.yaml
+[INFO 2020-07-08 16:59:44]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Product/Yaml/addProduct.yaml
+[INFO 2020-07-08 16:59:44]文件已经开始执行
+[INFO 2020-07-08 16:59:45]查询结果数据库成功：SELECT * from bt_product_info ORDER BY id
+[INFO 2020-07-08 17:00:35]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Product/Yaml/getProduct.yaml
+[INFO 2020-07-08 17:00:35]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Product/Yaml/addProduct.yaml
+[INFO 2020-07-08 17:00:35]文件已经开始执行
+[INFO 2020-07-08 17:00:36]查询结果数据库成功：SELECT * from bt_product_info ORDER BY id

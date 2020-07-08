@@ -1,0 +1,16 @@
+---
+
+GetProduct:
+  dec: 获取商品列表
+  parameters:
+    - casedec: "1.获取商品列表"
+      url: /customer/product/v1/products
+      selectsql:
+      data:
+      header: {
+        "X-Auth-Token": "42e2738f96d04d2a82b7a61c3ac34b23",
+        "x-request-sys": "wxmini"
+      }
+      responsecode: 200
+      responsesql: SELECT * from bt_product_info ORDER BY id
+      errorcode:

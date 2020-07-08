@@ -18,13 +18,13 @@ def get_parameter(name,dir):
     return param
 
 
-# class GetHierarchy:
-#     log.info('解析yaml, Path:' + path_dir + '/Param/Hierarchy/Yaml/GetHierarchy.yaml')
-#     params = get_parameter('GetHierarchy','/Params/Param/Hierarchy')
-#     url = params[0]['url']
-#     header = params[0]['header']
-#     responsecode = params[0]['responsecode']
-#     responsesql = params[0]['responsesql']
+class GetProduct:
+    log.info('解析yaml, Path:' + path_dir + '/Param/Product/Yaml/getProduct.yaml')
+    params = get_parameter('GetProduct','/Params/Param/Product')
+    url = params[0]['url']
+    header = params[0]['header']
+    responsecode = params[0]['responsecode']
+    responsesql = params[0]['responsesql']
 
 class AddProducts:
     log.info('解析yaml, Path:' + path_dir + '/Param/Product/Yaml/addProduct.yaml')
