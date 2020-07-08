@@ -1,7 +1,6 @@
-# @File  : test_getProduct.py
+# @File  : test_getTanzhu.py
 # @Author: leipei
 # @Date  :  2020/07/08
-
 
 import allure
 import pytest
@@ -12,21 +11,21 @@ from Common import Consts
 from Common import Request
 from Common.Session import Session
 from Conf.Config import Config
-from Params.ParamsProducts.paramsProducts import  GetProduct
+from Params.ParamsUserinfo.paramsUser import  getTanzhu
 from Common import Log
 import allure
 import json
 from Common.Assert import Assertions
 import time
 
-@allure.feature('GetProduct')
+@allure.feature('getTanzhu')
 class Testgetproduct:
 
     @allure.severity('blocker')
-    @allure.story('获取商品列表')
+    @allure.story('获取摊主详情')
     def test_hierarchy_01(self):
         """
-            用例描述：获取商品列表
+            用例描述：查看摊主详情
         """
 
         # 写log
@@ -34,7 +33,7 @@ class Testgetproduct:
             log = Log.MyLog()
             log.info('文件已经开始执行')
             conf = Config()
-            data = GetProduct()
+            data = getTanzhu()
 
         request = Request.Request()
 
@@ -43,31 +42,34 @@ class Testgetproduct:
         req_url = 'http://' + host
 
         # 获取请求参数
-        urls = data.url
-        # params = data.data
-        header = data.header
+        urls = data.url[0]
+        params = data.data[0]
+        header = data.header[0]
         # requestsql = data.selectsql
         env = conf.environment
-        responsecode = data.responsecode
-        responsesql = data.responsesql
+        responsecode = data.responsecode[0]
+        responsesql = data.responsesql[0]
         # casedescription = data.casedec
 
 
         # 请求接口
-        api_url = req_url + urls
+        api_url = req_url + urls + '/' + params[0]['customerId']
+        print(api_url)
 
         with allure.step("开始请求接口,RUL: {0},header:{1}".format(api_url, header)):
             response = request.get_request(api_url, None, header)
 
-        # 数据库查询结果
-        try:
-            responsesqlresult = SqlResult(responsesql, env).get_sqlresult_list()
-            with allure.step("获取预期结果值成功"):
-                log.info('查询结果数据库成功：' + responsesql)
-        except:
-            log.info('查询结果数据库失败：' + responsesql)
-
         print(response)
 
-
-        assert response['code'] == responsecode
+        # 数据库查询结果
+        # try:
+        #     responsesqlresult = SqlResult(responsesql, env).get_sqlresult_list()
+        #     with allure.step("获取预期结果值成功"):
+        #         log.info('查询结果数据库成功：' + responsesql)
+        # except:
+        #     log.info('查询结果数据库失败：' + responsesql)
+        #
+        # print(response)
+        #
+        #
+        # assert response['code'] == responsecode[0]

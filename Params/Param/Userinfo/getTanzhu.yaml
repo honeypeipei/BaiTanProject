@@ -1,0 +1,18 @@
+---
+
+GetTanzhu:
+  dec: 获取摊主详情
+  parameters:
+    - casedec: "1.获取摊主详情"
+      url: /customer/open/v1/query
+      selectsql:
+      data:
+        -
+          customerId: 'CUS730466291894329344'
+      header: {
+        "X-Auth-Token": "d6af730b0a8243eeb16372bbd356257d",
+        "x-request-sys": "wxmini"
+      }
+      responsecode: 200
+      responsesql: SELECT * from bt_product_info ORDER BY id
+      errorcode:
