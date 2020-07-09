@@ -1,0 +1,19 @@
+---
+
+GetNearStall:
+  dec: 查看附近摊位
+  parameters:
+    - casedec: "1.查看附近摊位"
+      url: :8104/customer/open/v1/nearby
+      selectsql:
+      data:
+        -
+          lng: "45.405506"
+          lat: '23.459506'
+      header: {
+        "X-Auth-Token": "d6af730b0a8243eeb16372bbd356257d",
+        "x-request-sys": "wxmini"
+      }
+      responsecode: 200
+      responsesql: SELECT * from bt_stall ORDER BY id
+      errorcode:
