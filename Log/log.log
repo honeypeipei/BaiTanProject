@@ -1331,3 +1331,22 @@
 [INFO 2020-07-09 14:36:11]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Userinfo/Yaml/getTanzhu.yaml
 [INFO 2020-07-09 14:36:11]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Userinfo/Yaml/getUserstatus.yaml
 [INFO 2020-07-09 14:36:11]文件已经开始执行
+[INFO 2020-07-09 14:40:48]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Tanwei/Yaml/getStall.yaml
+[INFO 2020-07-09 14:40:48]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Tanwei/Yaml/addTanwei.yaml
+[INFO 2020-07-09 14:40:48]文件已经开始执行
+[INFO 2020-07-09 14:58:51]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Tradearea/Yaml/Scanarea.yaml
+[INFO 2020-07-09 14:58:51]文件已经开始执行
+[INFO 2020-07-09 14:59:31]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Tradearea/Yaml/Scanarea.yaml
+[INFO 2020-07-09 14:59:31]文件已经开始执行
+[INFO 2020-07-09 15:00:28]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Tradearea/Yaml/Scanarea.yaml
+[INFO 2020-07-09 15:00:28]文件已经开始执行
+[INFO 2020-07-09 15:02:10]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Tradearea/Yaml/Scanarea.yaml
+[INFO 2020-07-09 15:02:10]文件已经开始执行
+[INFO 2020-07-09 15:02:43]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Tradearea/Yaml/Scanarea.yaml
+[INFO 2020-07-09 15:02:43]文件已经开始执行
+[INFO 2020-07-09 15:04:31]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Tradearea/Yaml/Scanarea.yaml
+[INFO 2020-07-09 15:04:31]文件已经开始执行
+[INFO 2020-07-09 15:44:39]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Tanwei/Yaml/getStall.yaml
+[INFO 2020-07-09 15:44:39]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Tanwei/Yaml/addTanwei.yaml
+[INFO 2020-07-09 15:44:39]解析yaml, Path:E:\python_project\BaiTanProject\Params/Param/Tanwei/Yaml/updateStall.yaml
+[INFO 2020-07-09 15:44:39]文件已开始执行

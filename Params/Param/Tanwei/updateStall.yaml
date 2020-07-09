@@ -1,0 +1,20 @@
+---
+
+UpdateStall:
+  dec: 更新摊位信息
+  parameters:
+    - casedec: "1.更新摊位信息"
+      url: :8104/customer/stall/v1/update
+      selectsql:
+      data:
+        -
+          name: "更新摊位名称test-pei"
+          type: 1
+          manageRange: '玩具-test-pei'
+      header: {
+        "X-Auth-Token": "d6af730b0a8243eeb16372bbd356257d",
+        "x-request-sys": "wxmini"
+      }
+      responsecode: 200
+      responsesql: SELECT * from bt_stall ORDER BY id
+      errorcode:

@@ -1,0 +1,19 @@
+---
+
+Scanarea:
+  dec: 扫商圈码
+  parameters:
+    - casedec: "1.已认证已填写摊位信息的用户扫商圈码"
+      url: :8104//customer/open/v1/scanarea
+      selectsql:
+      data:
+        -
+          customerId: 'CUS730466291894329344'
+          tradeAreaId: 'AR730795529474347008'
+      header: {
+        "X-Auth-Token": "d6af730b0a8243eeb16372bbd356257d",
+        "x-request-sys": "wxmini"
+      }
+      responsecode: 200
+      responsesql: SELECT * from bt_stall ORDER BY id
+      errorcode:
