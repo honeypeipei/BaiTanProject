@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2eb4c09-3c55-4fe4-ab90-47c082d9e18c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Params/Param/Tanwei/getNearStall.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test_getNearbyStall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCase/test_identify.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Params/ParamsStall/paramsStall.py" beforeDir="false" afterPath="$PROJECT_DIR$/Params/ParamsStall/paramsStall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Params/Param/Identify.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Params/ParamsUserinfo/paramsUser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Params/ParamsUserinfo/paramsUser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +35,7 @@
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_enableHierarchy_TestEnablehierarchy_test_enablehierarchy_02.coverage" NAME="pytest for test_enableHierarchy.TestEnablehierarchy.test_enablehierarchy_02 Coverage Results" MODIFIED="1593760105561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/BaiTanProject$pytest_for_test_getUserstatus_Testgetuserstatus_test_hierarchy_01.coverage" NAME="pytest for test_getUserstatus.Testgetuserstatus.test_hierarchy_01 Coverage Results" MODIFIED="1594276570603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/BaiTanProject$pytest_for_test_updateStall_TestUpdateStall_test_updatestall_01.coverage" NAME="pytest for test_updateStall.TestUpdateStall.test_updatestall_01 Coverage Results" MODIFIED="1594280678344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/BaiTanProject$pytest_for_test_identify_Testidentify_test_identify_01.coverage" NAME="pytest for test_identify.Testidentify.test_identify_01 Coverage Results" MODIFIED="1594284039068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_addHierarchy_TestAddhierarchy_test_hierarchy_01.coverage" NAME="pytest for test_addHierarchy.TestAddhierarchy.test_hierarchy_01 Coverage Results" MODIFIED="1593510322332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_addHierarchy_TestAddhierarchy_test_addhierarchy_07.coverage" NAME="pytest for test_addHierarchy.TestAddhierarchy.test_addhierarchy_07 Coverage Results" MODIFIED="1593670277892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/InformationJava$pytest_for_test_addHierarchy_TestAddhierarchy_test_addhierarchy_04.coverage" NAME="pytest for test_addHierarchy.TestAddhierarchy.test_addhierarchy_04 Coverage Results" MODIFIED="1593671432364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
@@ -64,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/Params/Param/Tanwei/updateStall.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="16" lean-forward="true" selection-end-line="19" selection-end-column="16" />
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -90,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/test_getNearbyStall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
               <folding>
                 <element signature="e#77#90#0" expanded="true" />
               </folding>
@@ -109,6 +110,63 @@
               <caret line="62" column="23" selection-start-line="4" selection-end-line="62" selection-end-column="23" />
               <folding>
                 <element signature="e#70#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Params/ParamsUserinfo/paramsUser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+              <folding>
+                <element signature="e#67#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_identify.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+              <folding>
+                <element signature="e#70#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Params/Param/Userinfo/Identify.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_addStall.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="65" column="82" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="82" />
+              <folding>
+                <element signature="e#70#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_getUserstatus.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="63" column="23" lean-forward="true" selection-start-line="5" selection-end-line="63" selection-end-column="23" />
+              <folding>
+                <element signature="e#76#89#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Common/Email.py" />
-        <option value="$PROJECT_DIR$/Common/Hash.py" />
         <option value="$PROJECT_DIR$/Common/Log.py" />
         <option value="$PROJECT_DIR$/Common/Session.py" />
         <option value="$PROJECT_DIR$/Common/Shell.py" />
@@ -161,7 +217,6 @@
         <option value="$PROJECT_DIR$/Params/Param/Hierarchy/UpdateHierarchy.yaml" />
         <option value="$PROJECT_DIR$/Params/Param/Hierarchy/DeleteHierarchy.yaml" />
         <option value="$PROJECT_DIR$/Params/Param/Hierarchy/EnableHierarchy.yaml" />
-        <option value="$PROJECT_DIR$/Params/Param/Identify.yaml" />
         <option value="$PROJECT_DIR$/Params/Param/Product/addProduct.yaml" />
         <option value="$PROJECT_DIR$/TestCase/test_addProduct.py" />
         <option value="$PROJECT_DIR$/Params/Param/Product/getProduct.yaml" />
@@ -177,7 +232,6 @@
         <option value="$PROJECT_DIR$/TestCase/test_addAdvice.py" />
         <option value="$PROJECT_DIR$/Params/Param/Advice/addAdvice.yaml" />
         <option value="$PROJECT_DIR$/Params/Param/Userinfo/getUserstatus.yaml" />
-        <option value="$PROJECT_DIR$/Params/ParamsUserinfo/paramsUser.py" />
         <option value="$PROJECT_DIR$/TestCase/test_getStall.py" />
         <option value="$PROJECT_DIR$/TestCase/test_getUserstatus.py" />
         <option value="$PROJECT_DIR$/Params/ParamsArea/paramsArea.py" />
@@ -188,6 +242,10 @@
         <option value="$PROJECT_DIR$/Params/ParamsStall/paramsStall.py" />
         <option value="$PROJECT_DIR$/Params/Param/Tanwei/getNearStall.yaml" />
         <option value="$PROJECT_DIR$/TestCase/test_getNearbyStall.py" />
+        <option value="$PROJECT_DIR$/Params/Param/Identify.yaml" />
+        <option value="$PROJECT_DIR$/Params/ParamsUserinfo/paramsUser.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_identify.py" />
+        <option value="$PROJECT_DIR$/Params/Param/Userinfo/Identify.yaml" />
       </list>
     </option>
   </component>
@@ -231,14 +289,14 @@
               <item name="BaiTanProject" type="462c0819:PsiDirectoryNode" />
               <item name="Params" type="462c0819:PsiDirectoryNode" />
               <item name="Param" type="462c0819:PsiDirectoryNode" />
-              <item name="Tanwei" type="462c0819:PsiDirectoryNode" />
+              <item name="Tradearea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="BaiTanProject" type="462c0819:PsiDirectoryNode" />
               <item name="Params" type="462c0819:PsiDirectoryNode" />
               <item name="Param" type="462c0819:PsiDirectoryNode" />
-              <item name="Tradearea" type="462c0819:PsiDirectoryNode" />
+              <item name="Userinfo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
@@ -256,7 +314,7 @@
               <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="BaiTanProject" type="462c0819:PsiDirectoryNode" />
               <item name="Params" type="462c0819:PsiDirectoryNode" />
-              <item name="ParamsStall" type="462c0819:PsiDirectoryNode" />
+              <item name="ParamsUserinfo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BaiTanProject" type="b2602c69:ProjectViewProjectNode" />
@@ -296,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_getNearbyStall.Testgetnearbystall.test_getnearbystall_01">
+  <component name="RunManager" selected="Python tests.pytest for test_identify.Testidentify.test_identify_01">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="InformationJava" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -351,7 +409,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_getUserstatus.Testgetuserstatus.test_hierarchy_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_identify.Testidentify.test_identify_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="InformationJava" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -363,7 +421,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_getUserstatus.Testgetuserstatus.test_hierarchy_01&quot;" />
+      <option name="_new_target" value="&quot;test_identify.Testidentify.test_identify_01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -402,18 +460,18 @@
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python tests.pytest for test_getStall.Testgetproduct.test_hierarchy_01" />
-      <item itemvalue="Python tests.pytest for test_getUserstatus.Testgetuserstatus.test_hierarchy_01" />
       <item itemvalue="Python tests.pytest for test_scanArea.Testgetuserstatus.test_scanArea_01" />
       <item itemvalue="Python tests.pytest for test_updateStall.TestUpdateStall.test_updatestall_01" />
       <item itemvalue="Python tests.pytest for test_getNearbyStall.Testgetnearbystall.test_getnearbystall_01" />
+      <item itemvalue="Python tests.pytest for test_identify.Testidentify.test_identify_01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_identify.Testidentify.test_identify_01" />
         <item itemvalue="Python tests.pytest for test_getNearbyStall.Testgetnearbystall.test_getnearbystall_01" />
         <item itemvalue="Python tests.pytest for test_scanArea.Testgetuserstatus.test_scanArea_01" />
         <item itemvalue="Python tests.pytest for test_updateStall.TestUpdateStall.test_updatestall_01" />
         <item itemvalue="Python tests.pytest for test_getStall.Testgetproduct.test_hierarchy_01" />
-        <item itemvalue="Python tests.pytest for test_getUserstatus.Testgetuserstatus.test_hierarchy_01" />
       </list>
     </recent_temporary>
   </component>
@@ -438,23 +496,11 @@
       <workItem from="1593849244792" duration="635000" />
       <workItem from="1594112993788" duration="1764000" />
       <workItem from="1594194248239" duration="8945000" />
-      <workItem from="1594257478678" duration="15545000" />
+      <workItem from="1594257478678" duration="17371000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_scanArea_Testgetuserstatus_test_scanArea_01 - 2020.07.09 at 15h 02m 05s.xml">
-      <configuration name="pytest for test_scanArea.Testgetuserstatus.test_scanArea_01" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_scanArea_Testgetuserstatus_test_scanArea_01 - 2020.07.09 at 15h 02m 39s.xml">
-      <configuration name="pytest for test_scanArea.Testgetuserstatus.test_scanArea_01" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_scanArea_Testgetuserstatus_test_scanArea_01 - 2020.07.09 at 15h 04m 25s.xml">
-      <configuration name="pytest for test_scanArea.Testgetuserstatus.test_scanArea_01" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_scanArea_Testgetuserstatus_test_scanArea_01 - 2020.07.09 at 15h 04m 31s.xml">
-      <configuration name="pytest for test_scanArea.Testgetuserstatus.test_scanArea_01" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_updateStall_TestUpdateStall_test_updatestall_01 - 2020.07.09 at 15h 44m 39s.xml">
       <configuration name="pytest for test_updateStall.TestUpdateStall.test_updatestall_01" configurationId="tests" />
     </history-entry>
@@ -473,9 +519,21 @@
     <history-entry file="pytest_for_test_getNearbyStall_Testgetnearbystall_test_getnearbystall_01 - 2020.07.09 at 16h 01m 14s.xml">
       <configuration name="pytest for test_getNearbyStall.Testgetnearbystall.test_getnearbystall_01" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_identify_Testidentify_test_identify_01 - 2020.07.09 at 16h 33m 29s.xml">
+      <configuration name="pytest for test_identify.Testidentify.test_identify_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_identify_Testidentify_test_identify_01 - 2020.07.09 at 16h 34m 46s.xml">
+      <configuration name="pytest for test_identify.Testidentify.test_identify_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_identify_Testidentify_test_identify_01 - 2020.07.09 at 16h 36m 00s.xml">
+      <configuration name="pytest for test_identify.Testidentify.test_identify_01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_identify_Testidentify_test_identify_01 - 2020.07.09 at 16h 36m 41s.xml">
+      <configuration name="pytest for test_identify.Testidentify.test_identify_01" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125726000" />
+    <option name="totallyTimeSpent" value="127552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="73" width="1940" height="1042" extended-state="0" />
@@ -486,7 +544,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20316027" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6196388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.489842" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -603,8 +661,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestCase/test_deleteHierarchy.py" />
-    <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/DeleteHierarchy.yaml" />
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -615,13 +671,6 @@
     <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/UpdateHierarchy.yaml" />
     <entry file="file://$PROJECT_DIR$/Params/Param/Hierarchy/EnableHierarchy.yaml" />
     <entry file="file://$PROJECT_DIR$/TestCase/test_updateHierarchy.py" />
-    <entry file="file://$PROJECT_DIR$/Params/Param/Identify.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_addHierarchy.py" />
     <entry file="file://$PROJECT_DIR$/Params/ParamsHierarchy/paramsHierarchy.py" />
     <entry file="file://D:/软件/python/Lib/site-packages/_pytest/skipping.py">
@@ -766,16 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Params/ParamsUserinfo/paramsUser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-          <folding>
-            <element signature="e#67#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Params/Param/Userinfo/getTanzhu.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -796,16 +835,6 @@
           <caret line="39" column="48" lean-forward="true" selection-start-line="4" selection-end-line="39" selection-end-column="48" />
           <folding>
             <element signature="e#69#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_getUserstatus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="63" column="23" lean-forward="true" selection-start-line="5" selection-end-line="63" selection-end-column="23" />
-          <folding>
-            <element signature="e#76#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -883,16 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_addStall.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="66" column="27" lean-forward="true" selection-start-line="4" selection-end-line="66" selection-end-column="27" />
-          <folding>
-            <element signature="e#70#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_scanArea.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -900,13 +919,6 @@
           <folding>
             <element signature="e#70#83#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Params/Param/Tanwei/updateStall.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="16" lean-forward="true" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -940,6 +952,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_getNearbyStall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+          <folding>
+            <element signature="e#77#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Params/Param/Tanwei/updateStall.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Params/Param/Tanwei/getNearStall.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -947,13 +976,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/test_getNearbyStall.py">
+    <entry file="file://$PROJECT_DIR$/Params/Param/Identify.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        <state relative-caret-position="114">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Params/ParamsUserinfo/paramsUser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
           <folding>
-            <element signature="e#77#90#0" expanded="true" />
+            <element signature="e#67#76#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_getUserstatus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="63" column="23" lean-forward="true" selection-start-line="5" selection-end-line="63" selection-end-column="23" />
+          <folding>
+            <element signature="e#76#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_addStall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="65" column="82" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="82" />
+          <folding>
+            <element signature="e#70#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_identify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding>
+            <element signature="e#70#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Params/Param/Userinfo/Identify.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>

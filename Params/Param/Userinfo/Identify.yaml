@@ -1,0 +1,21 @@
+---
+
+Identify:
+  dec: 摊主认证
+  parameters:
+    - casedec: "正确认证"
+      url: :8101/iam/v1/weixin/bt/register
+      selectsql:
+      data:
+        -
+          idNumber: "610524199103090412"
+          mobilePhone: "18710384211"
+          name: "test-709"
+          sex: "女"
+      header: {
+        "X-Auth-Token": "d6af730b0a8243eeb16372bbd356257e",
+        "x-request-sys": "wxmini"
+      }
+      responsecode: 200
+      responsesql: select name from sys_hierarchy where parent_id =
+      errorcode:
