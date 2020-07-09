@@ -1,0 +1,19 @@
+---
+
+AddAdvice:
+  dec: 添加意见反馈
+  parameters:
+    - casedec: "1.传必填项：反馈问题类型、内容"
+      url: :8104/customer/advice/v1/addAdvice
+      selectsql:
+      data:
+        -
+          adviceTitle : "意见反馈问题类型1"
+          adviceContent: '问题描述问题描述问题描述问题描述问题描述'
+      header: {
+        "X-Auth-Token": "d6af730b0a8243eeb16372bbd356257d",
+        "x-request-sys": "wxmini"
+      }
+      responsecode: 200
+      responsesql: SELECT * from bt_product_info where product_name ='@pname'
+      errorcode:

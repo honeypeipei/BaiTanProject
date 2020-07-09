@@ -1,0 +1,20 @@
+---
+
+AddStall:
+  dec: 添加摊位信息
+  parameters:
+    - casedec: "1.传必填项：摊位名、摊主性质、经营类别"
+      url: :8104/customer/open/v1/addMsbtStall
+      selectsql:
+      data:
+        -
+          name: "摊位名test"
+          type: 1
+          manageRange: '玩具'
+      header: {
+        "X-Auth-Token": "42e2738f96d04d2a82b7a61c3ac34b23",
+        "x-request-sys": "wxmini"
+      }
+      responsecode: 200
+      responsesql: SELECT * from bt_product_info where product_name ='@pname'
+      errorcode:

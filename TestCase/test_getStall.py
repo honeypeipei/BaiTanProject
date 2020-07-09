@@ -1,6 +1,6 @@
-# @File  : test_getTanzhu.py
+# @File  : test_getStall.py
 # @Author: leipei
-# @Date  :  2020/07/08
+# @Date  :  2020/07/09
 
 import allure
 import pytest
@@ -11,21 +11,21 @@ from Common import Consts
 from Common import Request
 from Common.Session import Session
 from Conf.Config import Config
-from Params.ParamsUserinfo.paramsUser import  getTanzhu
+from Params.ParamsStall.paramsStall import  getStall
 from Common import Log
 import allure
 import json
 from Common.Assert import Assertions
 import time
 
-@allure.feature('getTanzhu')
+@allure.feature('getStall')
 class Testgetproduct:
 
     @allure.severity('blocker')
-    @allure.story('获取摊主详情')
+    @allure.story('获取摊位详情')
     def test_hierarchy_01(self):
         """
-            用例描述：查看摊主详情
+            用例描述：查看摊位详情
         """
 
         # 写log
@@ -33,7 +33,7 @@ class Testgetproduct:
             log = Log.MyLog()
             log.info('文件已经开始执行')
             conf = Config()
-            data = getTanzhu()
+            data = getStall()
 
         request = Request.Request()
 
@@ -53,24 +53,11 @@ class Testgetproduct:
 
 
         # 请求接口
-        # api_url = req_url + urls + '/' + params[0]['customerId']
-        api_url = req_url + urls
+        api_url = req_url + urls + '/' + params[0]['customerId']
+        # api_url = req_url + urls
         print(api_url)
 
         with allure.step("开始请求接口,RUL: {0},header:{1}".format(api_url, header)):
             response = request.get_request(api_url, None, header)
 
         print(response)
-
-        # 数据库查询结果
-        # try:
-        #     responsesqlresult = SqlResult(responsesql, env).get_sqlresult_list()
-        #     with allure.step("获取预期结果值成功"):
-        #         log.info('查询结果数据库成功：' + responsesql)
-        # except:
-        #     log.info('查询结果数据库失败：' + responsesql)
-        #
-        # print(response)
-        #
-        #
-        # assert response['code'] == responsecode[0]

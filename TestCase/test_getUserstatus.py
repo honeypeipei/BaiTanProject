@@ -1,6 +1,7 @@
-# @File  : test_getTanzhu.py
+# @File  : test_getUserstatus.py
 # @Author: leipei
-# @Date  :  2020/07/08
+# @Date  :  2020/07/09
+
 
 import allure
 import pytest
@@ -11,21 +12,21 @@ from Common import Consts
 from Common import Request
 from Common.Session import Session
 from Conf.Config import Config
-from Params.ParamsUserinfo.paramsUser import  getTanzhu
+from Params.ParamsUserinfo.paramsUser import  getUserstatus
 from Common import Log
 import allure
 import json
 from Common.Assert import Assertions
 import time
 
-@allure.feature('getTanzhu')
-class Testgetproduct:
+@allure.feature('getUserstatus')
+class Testgetuserstatus:
 
     @allure.severity('blocker')
-    @allure.story('获取摊主详情')
+    @allure.story('获取用户状态')
     def test_hierarchy_01(self):
         """
-            用例描述：查看摊主详情
+            用例描述：获取用户状态
         """
 
         # 写log
@@ -33,7 +34,7 @@ class Testgetproduct:
             log = Log.MyLog()
             log.info('文件已经开始执行')
             conf = Config()
-            data = getTanzhu()
+            data = getUserstatus()
 
         request = Request.Request()
 
@@ -61,16 +62,3 @@ class Testgetproduct:
             response = request.get_request(api_url, None, header)
 
         print(response)
-
-        # 数据库查询结果
-        # try:
-        #     responsesqlresult = SqlResult(responsesql, env).get_sqlresult_list()
-        #     with allure.step("获取预期结果值成功"):
-        #         log.info('查询结果数据库成功：' + responsesql)
-        # except:
-        #     log.info('查询结果数据库失败：' + responsesql)
-        #
-        # print(response)
-        #
-        #
-        # assert response['code'] == responsecode[0]

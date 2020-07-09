@@ -1,10 +1,10 @@
 ---
 
 GetTanzhu:
-  dec: 获取摊主详情
+  dec: 获取用户状态
   parameters:
-    - casedec: "1.获取摊主详情"
-      url: :8101/iam/v1/weixin/bt/register
+    - casedec: "1.获取用户状态"
+      url: :8104/customer/stall/v1/userstatus
       selectsql:
       data:
         -

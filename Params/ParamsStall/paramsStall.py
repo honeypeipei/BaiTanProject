@@ -1,6 +1,6 @@
-# @File  : paramsUser.py
+# @File  : paramsStall.py
 # @Author: leipei
-# @Date  :  2020/07/08
+# @Date  :  2020/07/09
 
 import os
 
@@ -18,9 +18,9 @@ def get_parameter(name,dir):
     return param
 
 
-class getTanzhu:
-    log.info('解析yaml, Path:' + path_dir + '/Param/Userinfo/Yaml/getTanzhu.yaml')
-    params = get_parameter('GetTanzhu','/Params/Param/Userinfo')
+class getStall:
+    log.info('解析yaml, Path:' + path_dir + '/Param/Tanwei/Yaml/getStall.yaml')
+    params = get_parameter('GetStall','/Params/Param/Tanwei')
     url = []
     data = []
     header = []
@@ -39,9 +39,9 @@ class getTanzhu:
         casedec.append(params[i]['casedec'])
         errorcode.append(params[i]['errorcode'])
 
-class getUserstatus:
-    log.info('解析yaml, Path:' + path_dir + '/Param/Userinfo/Yaml/getUserstatus.yaml')
-    params = get_parameter('GetTanzhu','/Params/Param/Userinfo')
+class AddStall:
+    log.info('解析yaml, Path:' + path_dir + '/Param/Tanwei/Yaml/addTanwei.yaml')
+    params = get_parameter('AddStall','/Params/Param/Tanwei')
     url = []
     data = []
     header = []

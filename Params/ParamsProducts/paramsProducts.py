@@ -28,7 +28,7 @@ class GetProduct:
 
 class AddProducts:
     log.info('解析yaml, Path:' + path_dir + '/Param/Product/Yaml/addProduct.yaml')
-    params = get_parameter('AddProduct','/Params/Param/Product')
+    params = get_parameter('AddStall','/Params/Param/Product')
     url = []
     data = []
     header = []
